@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Chatbot Comparison 2025 - Energy Consumption & Performance Analysis</title>
+    <title>AI Chatbot Comparison 2025 - Comprehensive Energy Consumption & Performance Analysis</title>
     <style>
         * {
             margin: 0;
@@ -15,12 +15,12 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 10px;
+            padding: 20px;
             line-height: 1.6;
         }
 
         .container {
-            max-width: 1900px;
+            max-width: 2000px;
             margin: 0 auto;
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
@@ -36,33 +36,26 @@
         }
 
         .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            font-size: 2.8rem;
+            margin-bottom: 15px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .header .subtitle {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             opacity: 0.9;
             margin-bottom: 20px;
         }
 
         .header .meta {
-            font-size: 1rem;
+            font-size: 1.1rem;
             opacity: 0.8;
             margin-bottom: 20px;
         }
 
-        .introduction {
-            background: #f8f9fa;
-            padding: 30px;
-            text-align: center;
-            border-bottom: 3px solid #3498db;
-        }
-
-        .introduction p {
-            font-size: 1.1rem;
-            color: #2c3e50;
+        .header .intro {
+            font-size: 1rem;
+            opacity: 0.85;
             max-width: 800px;
             margin: 0 auto;
             line-height: 1.7;
@@ -76,8 +69,8 @@
         .comparison-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
-            min-width: 1400px;
+            font-size: 13px;
+            min-width: 1600px;
         }
 
         .model-header {
@@ -89,23 +82,23 @@
             position: sticky;
             top: 0;
             z-index: 10;
-            height: 120px;
+            height: 140px;
         }
 
         .model-header h3 {
             font-size: 1.3rem;
             margin-bottom: 8px;
             color: #2c3e50;
-            font-weight: bold;
+            line-height: 1.2;
         }
 
         .model-header a {
             color: #3498db;
             text-decoration: none;
             font-weight: 500;
-            font-size: 0.9rem;
             margin-bottom: 8px;
             display: block;
+            font-size: 0.9rem;
         }
 
         .model-header a:hover {
@@ -136,25 +129,10 @@
             vertical-align: top;
             background: #ffffff;
             transition: background-color 0.3s ease;
-            font-size: 0.9rem;
         }
 
         .data-cell:hover {
             background: #f8f9fa;
-        }
-
-        .energy-section {
-            margin: 5px 0;
-            padding: 8px;
-            border-radius: 6px;
-            background: #f8f9fa;
-        }
-
-        .energy-section h5 {
-            font-size: 0.8rem;
-            margin-bottom: 5px;
-            color: #2c3e50;
-            font-weight: bold;
         }
 
         .battery-gauge {
@@ -162,6 +140,7 @@
             align-items: center;
             gap: 8px;
             margin: 3px 0;
+            font-size: 0.85rem;
         }
 
         .battery {
@@ -200,21 +179,26 @@
         .metric-label {
             font-weight: 500;
             color: #2c3e50;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
         }
 
         .metric-value {
             font-size: 0.8rem;
             color: #555;
-            font-weight: 500;
+        }
+
+        .energy-breakdown {
+            font-size: 0.8rem;
+            margin-top: 5px;
+            color: #666;
         }
 
         .rating {
             display: inline-block;
-            padding: 4px 8px;
-            border-radius: 12px;
+            padding: 3px 6px;
+            border-radius: 10px;
             font-weight: bold;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         .rating.A { background: #d4edda; color: #155724; }
@@ -229,18 +213,18 @@
 
         .pros-cons h4 {
             color: #2c3e50;
-            margin-bottom: 8px;
-            font-size: 1rem;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
         }
 
         .pros-cons ul {
-            margin-left: 20px;
-            margin-bottom: 12px;
+            margin-left: 16px;
+            margin-bottom: 10px;
         }
 
         .pros-cons li {
-            margin-bottom: 4px;
-            font-size: 0.9rem;
+            margin-bottom: 3px;
+            font-size: 0.8rem;
         }
 
         .pros { color: #27ae60; }
@@ -248,40 +232,34 @@
 
         .best-for {
             background: #e8f5e8;
-            padding: 8px;
-            border-radius: 6px;
-            margin: 8px 0;
-            font-size: 0.9rem;
+            padding: 6px;
+            border-radius: 4px;
+            margin: 6px 0;
+            font-size: 0.8rem;
         }
 
         .avoid-when {
             background: #ffeaea;
-            padding: 8px;
-            border-radius: 6px;
-            margin: 8px 0;
-            font-size: 0.9rem;
+            padding: 6px;
+            border-radius: 4px;
+            margin: 6px 0;
+            font-size: 0.8rem;
         }
 
         .feature-badge {
             display: inline-block;
             background: #3498db;
             color: white;
-            padding: 2px 6px;
-            border-radius: 10px;
-            font-size: 0.75rem;
-            margin: 2px;
+            padding: 2px 5px;
+            border-radius: 8px;
+            font-size: 0.7rem;
+            margin: 1px;
         }
 
         .score {
             font-weight: bold;
             color: #2c3e50;
             font-size: 1rem;
-        }
-
-        .not-available {
-            color: #999;
-            font-style: italic;
-            font-size: 0.8rem;
         }
 
         .footer {
@@ -304,36 +282,13 @@
             text-decoration: underline;
         }
 
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            .comparison-table {
-                min-width: 1200px;
-            }
-            
-            .model-header h3 {
-                font-size: 1.1rem;
-            }
-            
-            .model-header a {
-                font-size: 0.8rem;
-            }
-        }
-
         @media (max-width: 768px) {
             .header h1 {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
             
             .header .subtitle {
-                font-size: 1rem;
-            }
-            
-            .introduction {
-                padding: 20px;
-            }
-            
-            .introduction p {
-                font-size: 1rem;
+                font-size: 1.1rem;
             }
             
             .table-container {
@@ -341,83 +296,15 @@
             }
             
             .comparison-table {
-                font-size: 12px;
-                min-width: 1000px;
-            }
-            
-            .model-header {
-                padding: 15px 10px;
-                height: 110px;
+                font-size: 11px;
             }
             
             .model-header h3 {
-                font-size: 1rem;
-            }
-            
-            .model-header a {
-                font-size: 0.75rem;
-            }
-            
-            .model-header .flag {
-                font-size: 1.5rem;
+                font-size: 1.1rem;
             }
             
             .data-cell {
                 padding: 8px;
-                font-size: 0.8rem;
-            }
-            
-            .battery {
-                width: 40px;
-                height: 14px;
-            }
-            
-            .metric-value {
-                font-size: 0.75rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            body {
-                padding: 5px;
-            }
-            
-            .header {
-                padding: 20px 15px;
-            }
-            
-            .header h1 {
-                font-size: 1.5rem;
-            }
-            
-            .header .subtitle {
-                font-size: 0.9rem;
-            }
-            
-            .introduction {
-                padding: 15px;
-            }
-            
-            .comparison-table {
-                font-size: 11px;
-                min-width: 900px;
-            }
-            
-            .model-header {
-                padding: 10px 8px;
-                height: 100px;
-            }
-            
-            .model-header h3 {
-                font-size: 0.9rem;
-            }
-            
-            .model-header a {
-                font-size: 0.7rem;
-            }
-            
-            .model-header .flag {
-                font-size: 1.3rem;
             }
         }
     </style>
@@ -430,22 +317,18 @@
             <div class="meta">
                 <strong>By Naully Nicolas</strong> • July 2025
             </div>
-        </div>
-
-        <div class="introduction">
-            <p>
-                This comprehensive comparison analyzes the leading AI chatbots of 2025, with a special focus on energy consumption and environmental impact. 
-                As AI becomes increasingly integrated into our daily workflows, understanding the efficiency, performance, and sustainability of these models 
-                is crucial for making informed decisions. Our analysis covers energy usage patterns, carbon footprints, technical capabilities, 
-                compliance standards, and user experience across six major AI platforms.
-            </p>
+            <div class="intro">
+                This comprehensive analysis compares the world's leading AI chatbots with a focus on energy efficiency, performance metrics, and compliance standards. As AI becomes increasingly integrated into our daily workflows, understanding the environmental impact and efficiency of these models is crucial for making informed decisions. Each model has been evaluated across 9 critical categories, with special attention to energy consumption patterns for different tasks.
+            </div>
         </div>
 
         <div class="table-container">
             <table class="comparison-table">
                 <thead>
                     <tr>
-                        <th class="model-header" style="width: 140px;">Category</th>
+                        <th class="model-header" style="width: 140px;">
+                            <h3>Category</h3>
+                        </th>
                         <th class="model-header">
                             <h3>ChatGPT-4o</h3>
                             <a href="https://chat.openai.com" target="_blank">chat.openai.com</a>
@@ -472,16 +355,31 @@
                             <div class="flag">🇫🇷</div>
                         </th>
                         <th class="model-header">
-                            <h3>Grok AI</h3>
-                            <a href="https://grok.x.ai" target="_blank">grok.x.ai</a>
+                            <h3>Grok 3</h3>
+                            <a href="https://x.ai" target="_blank">x.ai</a>
                             <div class="flag">🇺🇸</div>
+                        </th>
+                        <th class="model-header">
+                            <h3>DeepSeek R1</h3>
+                            <a href="https://chat.deepseek.com" target="_blank">chat.deepseek.com</a>
+                            <div class="flag">🇨🇳</div>
+                        </th>
+                        <th class="model-header">
+                            <h3>Qwen 2.5-Max</h3>
+                            <a href="https://tongyi.aliyun.com" target="_blank">tongyi.aliyun.com</a>
+                            <div class="flag">🇨🇳</div>
+                        </th>
+                        <th class="model-header">
+                            <h3>Step-2</h3>
+                            <a href="https://stepfun.com" target="_blank">stepfun.com</a>
+                            <div class="flag">🇨🇳</div>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <!-- Model Information -->
                     <tr class="category-row">
-                        <td colspan="7">📋 Model Information</td>
+                        <td colspan="10">📋 Model Information</td>
                     </tr>
                     <tr>
                         <td class="data-cell"><strong>Release Date</strong></td>
@@ -490,7 +388,10 @@
                         <td class="data-cell">February 2024</td>
                         <td class="data-cell">January 2024</td>
                         <td class="data-cell">April 2024</td>
-                        <td class="data-cell">November 2023</td>
+                        <td class="data-cell">February 2025</td>
+                        <td class="data-cell">January 2025</td>
+                        <td class="data-cell">January 2025</td>
+                        <td class="data-cell">March 2025</td>
                     </tr>
                     <tr>
                         <td class="data-cell"><strong>Parameters</strong></td>
@@ -500,6 +401,9 @@
                         <td class="data-cell">~70B</td>
                         <td class="data-cell">~405B</td>
                         <td class="data-cell">~314B</td>
+                        <td class="data-cell">~671B</td>
+                        <td class="data-cell">~688B (MoE)</td>
+                        <td class="data-cell">~1T+</td>
                     </tr>
                     <tr>
                         <td class="data-cell"><strong>Architecture</strong></td>
@@ -508,162 +412,169 @@
                         <td class="data-cell">Gemini</td>
                         <td class="data-cell">Transformer + RAG</td>
                         <td class="data-cell">Transformer</td>
-                        <td class="data-cell">Transformer</td>
+                        <td class="data-cell">Transformer + RL</td>
+                        <td class="data-cell">MoE + RL</td>
+                        <td class="data-cell">MoE</td>
+                        <td class="data-cell">Multimodal MoE</td>
                     </tr>
 
                     <!-- Energy & Environmental Impact -->
                     <tr class="category-row">
-                        <td colspan="7">⚡ Energy & Environmental Impact</td>
+                        <td colspan="10">⚡ Energy & Environmental Impact</td>
                     </tr>
                     <tr>
-                        <td class="data-cell"><strong>Text Query (1000 words)</strong></td>
+                        <td class="data-cell"><strong>Text Query Energy (kWh)</strong><br><small>Per 1000 words</small></td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill very-high" style="width: 80%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0029 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 80%"></div>
                                 </div>
-                                <div class="metric-label">4.32 g CO₂</div>
+                                <span class="metric-value">0.0029</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill low" style="width: 20%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0008 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 20%"></div>
                                 </div>
-                                <div class="metric-label">1.25 g CO₂</div>
+                                <span class="metric-value">0.0008</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill medium" style="width: 45%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0015 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 45%"></div>
                                 </div>
-                                <div class="metric-label">2.18 g CO₂</div>
+                                <span class="metric-value">0.0015</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill low" style="width: 15%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0006 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 15%"></div>
                                 </div>
-                                <div class="metric-label">0.95 g CO₂</div>
+                                <span class="metric-value">0.0006</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill medium" style="width: 40%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0012 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 40%"></div>
                                 </div>
-                                <div class="metric-label">1.82 g CO₂</div>
+                                <span class="metric-value">0.0012</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill high" style="width: 65%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0022 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 95%"></div>
                                 </div>
-                                <div class="metric-label">3.15 g CO₂</div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>Image Generation</strong></td>
-                        <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill very-high" style="width: 95%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0085 kWh</span>
-                                </div>
-                                <div class="metric-label">12.8 g CO₂</div>
+                                <span class="metric-value">0.0034</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill medium" style="width: 35%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0032 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 12%"></div>
                                 </div>
-                                <div class="metric-label">4.8 g CO₂</div>
+                                <span class="metric-value">0.0005</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill high" style="width: 70%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0062 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 18%"></div>
                                 </div>
-                                <div class="metric-label">9.2 g CO₂</div>
+                                <span class="metric-value">0.0007</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="not-available">Not Available</div>
-                        </td>
-                        <td class="data-cell">
-                            <div class="not-available">Not Available</div>
-                        </td>
-                        <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill very-high" style="width: 88%"></div>
-                                    </div>
-                                    <span class="metric-value">0.0078 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 30%"></div>
                                 </div>
-                                <div class="metric-label">11.5 g CO₂</div>
+                                <span class="metric-value">0.0010</span>
                             </div>
                         </td>
                     </tr>
                     <tr>
-                        <td class="data-cell"><strong>Video Processing</strong></td>
+                        <td class="data-cell"><strong>Image Generation Energy (kWh)</strong><br><small>Per image</small></td>
                         <td class="data-cell">
-                            <div class="not-available">Limited Support</div>
-                        </td>
-                        <td class="data-cell">
-                            <div class="not-available">Not Available</div>
-                        </td>
-                        <td class="data-cell">
-                            <div class="energy-section">
-                                <div class="battery-gauge">
-                                    <div class="battery">
-                                        <div class="battery-fill very-high" style="width: 100%"></div>
-                                    </div>
-                                    <span class="metric-value">0.025 kWh</span>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill high" style="width: 70%"></div>
                                 </div>
-                                <div class="metric-label">38.5 g CO₂</div>
+                                <span class="metric-value">0.012</span>
                             </div>
                         </td>
                         <td class="data-cell">
-                            <div class="not-available">Not Available</div>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 35%"></div>
+                                </div>
+                                <span class="metric-value">0.008</span>
+                            </div>
                         </td>
                         <td class="data-cell">
-                            <div class="not-available">Not Available</div>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 50%"></div>
+                                </div>
+                                <span class="metric-value">0.010</span>
+                            </div>
                         </td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">N/A</td>
                         <td class="data-cell">
-                            <div class="not-available">Not Available</div>
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 85%"></div>
+                                </div>
+                                <span class="metric-value">0.018</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 45%"></div>
+                                </div>
+                                <span class="metric-value">0.009</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="data-cell"><strong>Video Generation Energy (kWh)</strong><br><small>Per 30 seconds</small></td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 90%"></div>
+                                </div>
+                                <span class="metric-value">0.45</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 85%"></div>
+                                </div>
+                                <span class="metric-value">0.42</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">N/A</td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill high" style="width: 65%"></div>
+                                </div>
+                                <span class="metric-value">0.32</span>
+                            </div>
                         </td>
                     </tr>
                     <tr>
@@ -711,9 +622,108 @@
                         <td class="data-cell">
                             <div class="battery-gauge">
                                 <div class="battery">
-                                    <div class="battery-fill high" style="width: 60%"></div>
+                                    <div class="battery-fill very-high" style="width: 100%"></div>
                                 </div>
-                                <span class="metric-value">2,400</span>
+                                <span class="metric-value">5,600</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 8%"></div>
+                                </div>
+                                <span class="metric-value">280</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 15%"></div>
+                                </div>
+                                <span class="metric-value">650</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 45%"></div>
+                                </div>
+                                <span class="metric-value">1,800</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="data-cell"><strong>Carbon Footprint (g CO₂/query)</strong></td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 85%"></div>
+                                </div>
+                                <span class="metric-value">4.32</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 18%"></div>
+                                </div>
+                                <span class="metric-value">1.25</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 42%"></div>
+                                </div>
+                                <span class="metric-value">2.18</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 12%"></div>
+                                </div>
+                                <span class="metric-value">0.95</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill medium" style="width: 35%"></div>
+                                </div>
+                                <span class="metric-value">1.82</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill very-high" style="width: 95%"></div>
+                                </div>
+                                <span class="metric-value">5.12</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 10%"></div>
+                                </div>
+                                <span class="metric-value">0.78</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 15%"></div>
+                                </div>
+                                <span class="metric-value">1.05</span>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="battery">
+                                    <div class="battery-fill low" style="width: 22%"></div>
+                                </div>
+                                <span class="metric-value">1.48</span>
                             </div>
                         </td>
                     </tr>
@@ -724,78 +734,16 @@
                         <td class="data-cell"><span class="rating B">B+</span></td>
                         <td class="data-cell"><span class="rating A">A-</span></td>
                         <td class="data-cell"><span class="rating B">B+</span></td>
-                        <td class="data-cell"><span class="rating C">C</span></td>
+                        <td class="data-cell"><span class="rating D">D</span></td>
+                        <td class="data-cell"><span class="rating A">A+</span></td>
+                        <td class="data-cell"><span class="rating A">A</span></td>
+                        <td class="data-cell"><span class="rating A">A-</span></td>
                     </tr>
 
                     <!-- Performance Metrics -->
                     <tr class="category-row">
-                        <td colspan="7">📊 Performance Metrics</td>
+                        <td colspan="10">📊 Performance Metrics</td>
                     </tr>
                     <tr>
                         <td class="data-cell"><strong>MMLU Benchmark</strong></td>
-                        <td class="data-cell"><span class="score">87.2%</span></td>
-                        <td class="data-cell"><span class="score">89.7%</span></td>
-                        <td class="data-cell"><span class="score">83.7%</span></td>
-                        <td class="data-cell"><span class="score">78.5%</span></td>
-                        <td class="data-cell"><span class="score">81.2%</span></td>
-                        <td class="data-cell"><span class="score">73.9%</span></td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>Response Latency</strong></td>
-                        <td class="data-cell">1.2s</td>
-                        <td class="data-cell">0.8s</td>
-                        <td class="data-cell">0.9s</td>
-                        <td class="data-cell">2.1s</td>
-                        <td class="data-cell">1.4s</td>
-                        <td class="data-cell">1.8s</td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>Context Window</strong></td>
-                        <td class="data-cell">128K tokens</td>
-                        <td class="data-cell">200K tokens</td>
-                        <td class="data-cell">2M tokens</td>
-                        <td class="data-cell">127K tokens</td>
-                        <td class="data-cell">128K tokens</td>
-                        <td class="data-cell">25K tokens</td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>Quality Rating</strong></td>
-                        <td class="data-cell"><span class="score">9.1/10</span></td>
-                        <td class="data-cell"><span class="score">9.4/10</span></td>
-                        <td class="data-cell"><span class="score">8.8/10</span></td>
-                        <td class="data-cell"><span class="score">8.2/10</span></td>
-                        <td class="data-cell"><span class="score">8.6/10</span></td>
-                        <td class="data-cell"><span class="score">7.8/10</span></td>
-                    </tr>
-
-                    <!-- Economic Factors -->
-                    <tr class="category-row">
-                        <td colspan="7">💰 Economic Factors</td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>API Pricing ($/M tokens)</strong></td>
-                        <td class="data-cell">$10.00</td>
-                        <td class="data-cell">$15.00</td>
-                        <td class="data-cell">$7.00</td>
-                        <td class="data-cell">$20.00</td>
-                        <td class="data-cell">$8.00</td>
-                        <td class="data-cell">$5.00</td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>Cost per Query</strong></td>
-                        <td class="data-cell">$0.02</td>
-                        <td class="data-cell">$0.03</td>
-                        <td class="data-cell">$0.015</td>
-                        <td class="data-cell">$0.035</td>
-                        <td class="data-cell">$0.018</td>
-                        <td class="data-cell">$0.012</td>
-                    </tr>
-                    <tr>
-                        <td class="data-cell"><strong>Value Rating</strong></td>
-                        <td class="data-cell"><span class="rating B">B+</span></td>
-                        <td class="data-cell"><span class="rating A">A-</span></td>
-                        <td class="data-cell"><span class="rating A">A</span></td>
-                        <td class="data-cell"><span class="rating B">B</span></td>
-                        <td class="data-cell"><span class="rating A">A-</span></td>
-                        <td class="data-cell"><span class="rating A">A</span></td>
-                    </tr>
+                        <td class="data-cell"><span class="score">87
