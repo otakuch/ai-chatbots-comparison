@@ -1,0 +1,1375 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T00:00:00Z",
+    "author": "Naully Nicolas",
+    "description": "Comprehensive dataset of AI chatbot models with energy consumption, performance, and compliance metrics",
+    "totalModels": 9,
+    "categories": 9,
+    "sources": 91,
+    "energyUnit": "kWh",
+    "performanceScale": "1-10",
+    "carbonUnit": "gCO2"
+  },
+  "energyThresholds": {
+    "low": 0.001,
+    "medium": 0.002,
+    "high": 0.003,
+    "veryHigh": 0.004,
+    "description": "Energy efficiency thresholds for battery gauge visualization"
+  },
+  "models": {
+    "chatgpt-4o": {
+      "id": "chatgpt-4o",
+      "name": "ChatGPT-4o",
+      "company": "OpenAI",
+      "country": "🇺🇸",
+      "countryCode": "US",
+      "website": "https://chat.openai.com",
+      "releaseDate": "2024-05-13",
+      "lastUpdate": "2025-06-15",
+      "modelInfo": {
+        "parameters": "~1.8T",
+        "parametersNumeric": 1800000000000,
+        "architecture": "Transformer",
+        "contextWindow": 128000,
+        "contextWindowFormatted": "128K tokens",
+        "trainingData": "Up to April 2024",
+        "multimodal": true,
+        "supportedModes": ["text", "image", "audio"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0029,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 80,
+          "efficiencyClass": "very-high"
+        },
+        "imageGeneration": {
+          "value": 0.012,
+          "unit": "kWh",
+          "description": "Per image",
+          "batteryFillPercentage": 70,
+          "efficiencyClass": "high"
+        },
+        "videoGeneration": {
+          "value": 0.45,
+          "unit": "kWh",
+          "description": "Per 30 seconds",
+          "batteryFillPercentage": 90,
+          "efficiencyClass": "very-high"
+        },
+        "trainingEnergy": {
+          "value": 4300,
+          "unit": "MWh",
+          "batteryFillPercentage": 90,
+          "efficiencyClass": "very-high"
+        },
+        "carbonFootprint": {
+          "value": 4.32,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 85,
+          "efficiencyClass": "very-high"
+        },
+        "environmentalRating": "C+",
+        "sustainabilityScore": 2.3
+      },
+      "performance": {
+        "mmluBenchmark": 87.2,
+        "responseLatency": 1.2,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 9.1,
+        "accuracyScore": 91.5,
+        "codingAbility": 89.0,
+        "reasoningAbility": 88.5,
+        "mathematicalReasoning": 85.0,
+        "overallPerformance": 9.1
+      },
+      "economics": {
+        "apiPricing": 10.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.02,
+        "costPerQueryUnit": "$",
+        "trainingCost": 100000000,
+        "trainingCostUnit": "$",
+        "valueRating": "B+",
+        "pricePerformanceRatio": 7.8
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image", "Audio"],
+        "programmingLanguages": "50+ languages",
+        "specialFeatures": ["Code Interpreter", "Web Browsing", "Image Generation", "Voice Chat"],
+        "apiAvailable": true,
+        "openSource": false,
+        "maxTokensPerMinute": 150000,
+        "rateLimits": "40 messages/3hrs"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "Mobile", "API", "Desktop"],
+        "geographicRegions": "160+ countries",
+        "enterpriseSupport": true,
+        "developmentTools": true,
+        "documentation": "Excellent",
+        "communitySupport": "Very High"
+      },
+      "compliance": {
+        "gdprCompliance": "Compliant",
+        "gdprRating": "B",
+        "euAiActClassification": "High-Risk",
+        "dataLocalization": ["US", "EU options"],
+        "privacyRating": "B+",
+        "certifications": ["SOC 2", "ISO 27001"],
+        "dataRetention": "30 days",
+        "rightToDelete": true
+      },
+      "userExperience": {
+        "easeOfUse": 9.2,
+        "developerPreference": 8.9,
+        "updateFrequency": "Monthly",
+        "communityRating": 9.0,
+        "documentationQuality": 8.8,
+        "supportQuality": 8.5,
+        "interfaceDesign": 9.1,
+        "mobileExperience": 8.7
+      },
+      "prosAndCons": {
+        "pros": [
+          "Industry-leading performance across multiple tasks",
+          "Excellent multimodal capabilities",
+          "Strong developer ecosystem and tools",
+          "Regular updates and improvements"
+        ],
+        "cons": [
+          "High energy consumption per query",
+          "Expensive API pricing",
+          "Rate limits on free tier",
+          "Dependency on OpenAI infrastructure"
+        ],
+        "bestFor": [
+          "General-purpose AI applications",
+          "Creative content generation",
+          "Complex problem solving",
+          "Multimodal applications"
+        ],
+        "avoidWhen": [
+          "Budget-constrained projects",
+          "High-volume processing needs",
+          "Energy efficiency is priority",
+          "Need guaranteed uptime"
+        ]
+      }
+    },
+    "claude-sonnet-4": {
+      "id": "claude-sonnet-4",
+      "name": "Claude Sonnet 4",
+      "company": "Anthropic",
+      "country": "🇺🇸",
+      "countryCode": "US",
+      "website": "https://claude.ai",
+      "releaseDate": "2025-05-20",
+      "lastUpdate": "2025-07-01",
+      "modelInfo": {
+        "parameters": "~200B",
+        "parametersNumeric": 200000000000,
+        "architecture": "Constitutional AI",
+        "contextWindow": 200000,
+        "contextWindowFormatted": "200K tokens",
+        "trainingData": "Up to February 2025",
+        "multimodal": true,
+        "supportedModes": ["text", "image", "documents"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0008,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 20,
+          "efficiencyClass": "low"
+        },
+        "imageGeneration": {
+          "value": 0.008,
+          "unit": "kWh",
+          "description": "Per image",
+          "batteryFillPercentage": 35,
+          "efficiencyClass": "medium"
+        },
+        "videoGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "trainingEnergy": {
+          "value": 1200,
+          "unit": "MWh",
+          "batteryFillPercentage": 25,
+          "efficiencyClass": "low"
+        },
+        "carbonFootprint": {
+          "value": 1.25,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 18,
+          "efficiencyClass": "low"
+        },
+        "environmentalRating": "A",
+        "sustainabilityScore": 4.0
+      },
+      "performance": {
+        "mmluBenchmark": 89.7,
+        "responseLatency": 0.8,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 9.4,
+        "accuracyScore": 94.2,
+        "codingAbility": 90.5,
+        "reasoningAbility": 93.2,
+        "mathematicalReasoning": 91.8,
+        "overallPerformance": 9.4
+      },
+      "economics": {
+        "apiPricing": 15.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.03,
+        "costPerQueryUnit": "$",
+        "trainingCost": 45000000,
+        "trainingCostUnit": "$",
+        "valueRating": "A-",
+        "pricePerformanceRatio": 8.5
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image", "Documents"],
+        "programmingLanguages": "40+ languages",
+        "specialFeatures": ["Constitutional AI", "Long Context", "Document Analysis", "Code Review"],
+        "apiAvailable": true,
+        "openSource": false,
+        "maxTokensPerMinute": 200000,
+        "rateLimits": "Unlimited"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "Mobile", "API"],
+        "geographicRegions": "95+ countries",
+        "enterpriseSupport": true,
+        "developmentTools": true,
+        "documentation": "Excellent",
+        "communitySupport": "High"
+      },
+      "compliance": {
+        "gdprCompliance": "Full Compliance",
+        "gdprRating": "A",
+        "euAiActClassification": "Foundation Model",
+        "dataLocalization": ["US", "EU", "UK options"],
+        "privacyRating": "A",
+        "certifications": ["SOC 2", "GDPR", "CCPA"],
+        "dataRetention": "No training data retention",
+        "rightToDelete": true
+      },
+      "userExperience": {
+        "easeOfUse": 9.5,
+        "developerPreference": 9.3,
+        "updateFrequency": "Bi-weekly",
+        "communityRating": 9.2,
+        "documentationQuality": 9.4,
+        "supportQuality": 9.1,
+        "interfaceDesign": 9.3,
+        "mobileExperience": 9.0
+      },
+      "prosAndCons": {
+        "pros": [
+          "Highest accuracy and safety ratings",
+          "Excellent energy efficiency",
+          "Superior reasoning capabilities",
+          "Strong privacy and compliance"
+        ],
+        "cons": [
+          "Higher API costs",
+          "Limited multimodal features",
+          "Smaller developer ecosystem",
+          "No video generation capability"
+        ],
+        "bestFor": [
+          "Analysis and reasoning tasks",
+          "Safety-critical applications",
+          "Long-form content analysis",
+          "Privacy-sensitive projects"
+        ],
+        "avoidWhen": [
+          "Budget-constrained projects",
+          "Need video generation",
+          "Require extensive multimodal features",
+          "Need maximum speed"
+        ]
+      }
+    },
+    "gemini-pro": {
+      "id": "gemini-pro",
+      "name": "Gemini Pro",
+      "company": "Google",
+      "country": "🇺🇸",
+      "countryCode": "US",
+      "website": "https://gemini.google.com",
+      "releaseDate": "2024-02-08",
+      "lastUpdate": "2025-06-30",
+      "modelInfo": {
+        "parameters": "~540B",
+        "parametersNumeric": 540000000000,
+        "architecture": "Gemini",
+        "contextWindow": 2000000,
+        "contextWindowFormatted": "2M tokens",
+        "trainingData": "Up to January 2024",
+        "multimodal": true,
+        "supportedModes": ["text", "image", "video", "audio"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0015,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 45,
+          "efficiencyClass": "medium"
+        },
+        "imageGeneration": {
+          "value": 0.010,
+          "unit": "kWh",
+          "description": "Per image",
+          "batteryFillPercentage": 50,
+          "efficiencyClass": "medium"
+        },
+        "videoGeneration": {
+          "value": 0.42,
+          "unit": "kWh",
+          "description": "Per 30 seconds",
+          "batteryFillPercentage": 85,
+          "efficiencyClass": "very-high"
+        },
+        "trainingEnergy": {
+          "value": 2800,
+          "unit": "MWh",
+          "batteryFillPercentage": 70,
+          "efficiencyClass": "high"
+        },
+        "carbonFootprint": {
+          "value": 2.18,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 42,
+          "efficiencyClass": "medium"
+        },
+        "environmentalRating": "B+",
+        "sustainabilityScore": 3.3
+      },
+      "performance": {
+        "mmluBenchmark": 83.7,
+        "responseLatency": 0.9,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 8.8,
+        "accuracyScore": 88.9,
+        "codingAbility": 86.2,
+        "reasoningAbility": 85.4,
+        "mathematicalReasoning": 87.1,
+        "overallPerformance": 8.8
+      },
+      "economics": {
+        "apiPricing": 7.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.015,
+        "costPerQueryUnit": "$",
+        "trainingCost": 200000000,
+        "trainingCostUnit": "$",
+        "valueRating": "A",
+        "pricePerformanceRatio": 9.2
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image", "Video", "Audio"],
+        "programmingLanguages": "45+ languages",
+        "specialFeatures": ["Multimodal Understanding", "Google Integration", "Real-time Data", "Code Execution"],
+        "apiAvailable": true,
+        "openSource": false,
+        "maxTokensPerMinute": 300000,
+        "rateLimits": "Unlimited"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "Mobile", "API", "Android"],
+        "geographicRegions": "180+ countries",
+        "enterpriseSupport": true,
+        "developmentTools": true,
+        "documentation": "Good",
+        "communitySupport": "High"
+      },
+      "compliance": {
+        "gdprCompliance": "Full Compliance",
+        "gdprRating": "A",
+        "euAiActClassification": "High-Risk",
+        "dataLocalization": ["Global regions"],
+        "privacyRating": "A-",
+        "certifications": ["ISO 27001", "SOC 2", "GDPR"],
+        "dataRetention": "User controlled",
+        "rightToDelete": true
+      },
+      "userExperience": {
+        "easeOfUse": 9.0,
+        "developerPreference": 8.7,
+        "updateFrequency": "Monthly",
+        "communityRating": 8.8,
+        "documentationQuality": 8.5,
+        "supportQuality": 8.9,
+        "interfaceDesign": 8.8,
+        "mobileExperience": 9.2
+      },
+      "prosAndCons": {
+        "pros": [
+          "Excellent multimodal capabilities",
+          "Competitive pricing",
+          "Google ecosystem integration",
+          "Large context window"
+        ],
+        "cons": [
+          "Lower reasoning performance than competitors",
+          "Limited availability in some regions",
+          "Google data policies concerns",
+          "Newer model with less track record"
+        ],
+        "bestFor": [
+          "Multimodal applications",
+          "Cost-effective implementations",
+          "Google workspace integration",
+          "Video and audio processing"
+        ],
+        "avoidWhen": [
+          "Need highest accuracy",
+          "Privacy-sensitive applications",
+          "Complex reasoning tasks",
+          "Avoiding big tech dependencies"
+        ]
+      }
+    },
+    "perplexity-pro": {
+      "id": "perplexity-pro",
+      "name": "Perplexity Pro",
+      "company": "Perplexity",
+      "country": "🇺🇸",
+      "countryCode": "US",
+      "website": "https://perplexity.ai",
+      "releaseDate": "2024-01-15",
+      "lastUpdate": "2025-07-05",
+      "modelInfo": {
+        "parameters": "~70B",
+        "parametersNumeric": 70000000000,
+        "architecture": "Transformer + RAG",
+        "contextWindow": 127000,
+        "contextWindowFormatted": "127K tokens",
+        "trainingData": "Real-time web data",
+        "multimodal": true,
+        "supportedModes": ["text", "image", "web"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0006,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 15,
+          "efficiencyClass": "low"
+        },
+        "imageGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "videoGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "trainingEnergy": {
+          "value": 800,
+          "unit": "MWh",
+          "batteryFillPercentage": 20,
+          "efficiencyClass": "low"
+        },
+        "carbonFootprint": {
+          "value": 0.95,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 12,
+          "efficiencyClass": "low"
+        },
+        "environmentalRating": "A-",
+        "sustainabilityScore": 3.7
+      },
+      "performance": {
+        "mmluBenchmark": 78.5,
+        "responseLatency": 2.1,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 8.2,
+        "accuracyScore": 87.3,
+        "codingAbility": 75.0,
+        "reasoningAbility": 79.8,
+        "mathematicalReasoning": 76.5,
+        "overallPerformance": 8.2
+      },
+      "economics": {
+        "apiPricing": 20.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.035,
+        "costPerQueryUnit": "$",
+        "trainingCost": 15000000,
+        "trainingCostUnit": "$",
+        "valueRating": "B",
+        "pricePerformanceRatio": 6.8
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image", "Web"],
+        "programmingLanguages": "30+ languages",
+        "specialFeatures": ["Real-time Search", "Source Citations", "Research Assistant", "Web Browsing"],
+        "apiAvailable": true,
+        "openSource": false,
+        "maxTokensPerMinute": 100000,
+        "rateLimits": "300 queries/day"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "Mobile", "API"],
+        "geographicRegions": "75+ countries",
+        "enterpriseSupport": false,
+        "developmentTools": false,
+        "documentation": "Good",
+        "communitySupport": "Medium"
+      },
+      "compliance": {
+        "gdprCompliance": "Compliant",
+        "gdprRating": "B",
+        "euAiActClassification": "Limited Risk",
+        "dataLocalization": ["US primary"],
+        "privacyRating": "B",
+        "certifications": ["SOC 2"],
+        "dataRetention": "90 days",
+        "rightToDelete": true
+      },
+      "userExperience": {
+        "easeOfUse": 8.8,
+        "developerPreference": 8.1,
+        "updateFrequency": "Weekly",
+        "communityRating": 8.3,
+        "documentationQuality": 7.8,
+        "supportQuality": 7.5,
+        "interfaceDesign": 8.6,
+        "mobileExperience": 8.4
+      },
+      "prosAndCons": {
+        "pros": [
+          "Real-time web search integration",
+          "Excellent for research tasks",
+          "Source citation and verification",
+          "Very energy efficient"
+        ],
+        "cons": [
+          "Higher cost per query",
+          "Limited coding capabilities",
+          "Slower response times",
+          "No generative capabilities"
+        ],
+        "bestFor": [
+          "Research and fact-checking",
+          "Real-time information queries",
+          "Academic and professional research",
+          "Energy-conscious applications"
+        ],
+        "avoidWhen": [
+          "Need content generation",
+          "Budget constraints",
+          "Coding assistance required",
+          "Need fast responses"
+        ]
+      }
+    },
+    "mistral-large": {
+      "id": "mistral-large",
+      "name": "Mistral Large",
+      "company": "Mistral AI",
+      "country": "🇫🇷",
+      "countryCode": "FR",
+      "website": "https://mistral.ai",
+      "releaseDate": "2024-04-20",
+      "lastUpdate": "2025-06-20",
+      "modelInfo": {
+        "parameters": "~405B",
+        "parametersNumeric": 405000000000,
+        "architecture": "Transformer",
+        "contextWindow": 128000,
+        "contextWindowFormatted": "128K tokens",
+        "trainingData": "Up to March 2024",
+        "multimodal": false,
+        "supportedModes": ["text", "code"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0012,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 40,
+          "efficiencyClass": "medium"
+        },
+        "imageGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "videoGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "trainingEnergy": {
+          "value": 1900,
+          "unit": "MWh",
+          "batteryFillPercentage": 50,
+          "efficiencyClass": "medium"
+        },
+        "carbonFootprint": {
+          "value": 1.82,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 35,
+          "efficiencyClass": "medium"
+        },
+        "environmentalRating": "B+",
+        "sustainabilityScore": 3.3
+      },
+      "performance": {
+        "mmluBenchmark": 81.2,
+        "responseLatency": 1.4,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 8.6,
+        "accuracyScore": 89.1,
+        "codingAbility": 92.5,
+        "reasoningAbility": 84.7,
+        "mathematicalReasoning": 88.3,
+        "overallPerformance": 8.6
+      },
+      "economics": {
+        "apiPricing": 8.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.018,
+        "costPerQueryUnit": "$",
+        "trainingCost": 35000000,
+        "trainingCostUnit": "$",
+        "valueRating": "A-",
+        "pricePerformanceRatio": 8.9
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Code"],
+        "programmingLanguages": "35+ languages",
+        "specialFeatures": ["European AI", "Code Generation", "Function Calling", "JSON Mode"],
+        "apiAvailable": true,
+        "openSource": true,
+        "maxTokensPerMinute": 180000,
+        "rateLimits": "Unlimited"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "API", "Cloud"],
+        "geographicRegions": "120+ countries",
+        "enterpriseSupport": true,
+        "developmentTools": true,
+        "documentation": "Good",
+        "communitySupport": "Medium"
+      },
+      "compliance": {
+        "gdprCompliance": "Full Compliance",
+        "gdprRating": "A",
+        "euAiActClassification": "Foundation Model",
+        "dataLocalization": ["EU", "US options"],
+        "privacyRating": "A-",
+        "certifications": ["GDPR", "EU AI Act Compliant"],
+        "dataRetention": "User controlled",
+        "rightToDelete": true
+      },
+      "userExperience": {
+        "easeOfUse": 8.5,
+        "developerPreference": 8.4,
+        "updateFrequency": "Monthly",
+        "communityRating": 8.2,
+        "documentationQuality": 8.1,
+        "supportQuality": 8.0,
+        "interfaceDesign": 8.3,
+        "mobileExperience": 7.9
+      },
+      "prosAndCons": {
+        "pros": [
+          "Strong European alternative",
+          "Excellent coding capabilities",
+          "GDPR compliant by design",
+          "Open source availability"
+        ],
+        "cons": [
+          "Limited multimodal features",
+          "Smaller ecosystem",
+          "Less brand recognition",
+          "Limited training data recency"
+        ],
+        "bestFor": [
+          "European compliance requirements",
+          "Code generation and review",
+          "Privacy-focused applications",
+          "Open source deployments"
+        ],
+        "avoidWhen": [
+          "Need multimodal capabilities",
+          "Require latest information",
+          "Need extensive ecosystem",
+          "Want maximum performance"
+        ]
+      }
+    },
+    "grok-3": {
+      "id": "grok-3",
+      "name": "Grok 3",
+      "company": "xAI",
+      "country": "🇺🇸",
+      "countryCode": "US",
+      "website": "https://x.ai",
+      "releaseDate": "2025-02-17",
+      "lastUpdate": "2025-07-01",
+      "modelInfo": {
+        "parameters": "~314B",
+        "parametersNumeric": 314000000000,
+        "architecture": "Transformer + RL",
+        "contextWindow": 128000,
+        "contextWindowFormatted": "128K tokens",
+        "trainingData": "Real-time X data + web",
+        "multimodal": true,
+        "supportedModes": ["text", "image"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0034,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 95,
+          "efficiencyClass": "very-high"
+        },
+        "imageGeneration": {
+          "value": 0.018,
+          "unit": "kWh",
+          "description": "Per image",
+          "batteryFillPercentage": 85,
+          "efficiencyClass": "very-high"
+        },
+        "videoGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "trainingEnergy": {
+          "value": 5600,
+          "unit": "MWh",
+          "batteryFillPercentage": 100,
+          "efficiencyClass": "very-high"
+        },
+        "carbonFootprint": {
+          "value": 5.12,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 95,
+          "efficiencyClass": "very-high"
+        },
+        "environmentalRating": "D",
+        "sustainabilityScore": 1.0
+      },
+      "performance": {
+        "mmluBenchmark": 88.9,
+        "responseLatency": 0.7,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 8.9,
+        "accuracyScore": 90.2,
+        "codingAbility": 92.8,
+        "reasoningAbility": 91.5,
+        "mathematicalReasoning": 93.1,
+        "overallPerformance": 8.9
+      },
+      "economics": {
+        "apiPricing": 25.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.045,
+        "costPerQueryUnit": "$",
+        "trainingCost": 500000000,
+        "trainingCostUnit": "$",
+        "valueRating": "C",
+        "pricePerformanceRatio": 6.2
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image"],
+        "programmingLanguages": "40+ languages",
+        "specialFeatures": ["Real-time Data", "X Integration", "Deep Search", "Chain of Thought Reasoning"],
+        "apiAvailable": true,
+        "openSource": false,
+        "maxTokensPerMinute": 500000,
+        "rateLimits": "Premium X subscription required"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "X Platform", "API"],
+        "geographicRegions": "50+ countries",
+        "enterpriseSupport": false,
+        "developmentTools": false,
+        "documentation": "Limited",
+        "communitySupport": "Low"
+      },
+      "compliance": {
+        "gdprCompliance": "Partial",
+        "gdprRating": "C",
+        "euAiActClassification": "High-Risk",
+        "dataLocalization": ["US only"],
+        "privacyRating": "C",
+        "certifications": ["None disclosed"],
+        "dataRetention": "Undefined",
+        "rightToDelete": false
+      },
+      "userExperience": {
+        "easeOfUse": 7.8,
+        "developerPreference": 7.2,
+        "updateFrequency": "Daily improvements",
+        "communityRating": 7.5,
+        "documentationQuality": 6.8,
+        "supportQuality": 6.5,
+        "interfaceDesign": 8.1,
+        "mobileExperience": 7.6
+      },
+      "prosAndCons": {
+        "pros": [
+          "Real-time data access",
+          "Strong reasoning capabilities",
+          "X platform integration",
+          "Rapid development pace"
+        ],
+        "cons": [
+          "Highest energy consumption",
+          "Most expensive pricing",
+          "Limited availability",
+          "Compliance concerns"
+        ],
+        "bestFor": [
+          "Real-time social media analysis",
+          "X platform applications",
+          "High-performance reasoning tasks",
+          "Users already in X ecosystem"
+        ],
+        "avoidWhen": [
+          "Energy efficiency is priority",
+          "Budget constraints",
+          "Need regulatory compliance",
+          "Require stable API"
+        ]
+      }
+    },
+    "deepseek-r1": {
+      "id": "deepseek-r1",
+      "name": "DeepSeek R1",
+      "company": "DeepSeek",
+      "country": "🇨🇳",
+      "countryCode": "CN",
+      "website": "https://chat.deepseek.com",
+      "releaseDate": "2025-01-20",
+      "lastUpdate": "2025-07-08",
+      "modelInfo": {
+        "parameters": "~671B",
+        "parametersNumeric": 671000000000,
+        "architecture": "MoE + RL",
+        "contextWindow": 128000,
+        "contextWindowFormatted": "128K tokens",
+        "trainingData": "Up to December 2024",
+        "multimodal": false,
+        "supportedModes": ["text", "reasoning"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0005,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 12,
+          "efficiencyClass": "low"
+        },
+        "imageGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "videoGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "trainingEnergy": {
+          "value": 280,
+          "unit": "MWh",
+          "batteryFillPercentage": 8,
+          "efficiencyClass": "low"
+        },
+        "carbonFootprint": {
+          "value": 0.78,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 10,
+          "efficiencyClass": "low"
+        },
+        "environmentalRating": "A+",
+        "sustainabilityScore": 4.3
+      },
+      "performance": {
+        "mmluBenchmark": 90.8,
+        "responseLatency": 1.1,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 9.2,
+        "accuracyScore": 93.5,
+        "codingAbility": 94.2,
+        "reasoningAbility": 95.1,
+        "mathematicalReasoning": 96.3,
+        "overallPerformance": 9.2
+      },
+      "economics": {
+        "apiPricing": 1.50,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.003,
+        "costPerQueryUnit": "$",
+        "trainingCost": 5600000,
+        "trainingCostUnit": "$",
+        "valueRating": "A+",
+        "pricePerformanceRatio": 9.8
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Reasoning"],
+        "programmingLanguages": "50+ languages",
+        "specialFeatures": ["Chain of Thought", "Test-time Scaling", "Reinforcement Learning", "Open Source"],
+        "apiAvailable": true,
+        "openSource": true,
+        "maxTokensPerMinute": 250000,
+        "rateLimits": "Generous free tier"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "API", "Self-hosted"],
+        "geographicRegions": "Global (some restrictions)",
+        "enterpriseSupport": false,
+        "developmentTools": true,
+        "documentation": "Good",
+        "communitySupport": "High"
+      },
+      "compliance": {
+        "gdprCompliance": "Limited",
+        "gdprRating": "C",
+        "euAiActClassification": "Foundation Model",
+        "dataLocalization": ["China primary"],
+        "privacyRating": "C",
+        "certifications": ["None disclosed"],
+        "dataRetention": "Unclear",
+        "rightToDelete": false
+      },
+      "userExperience": {
+        "easeOfUse": 8.9,
+        "developerPreference": 9.1,
+        "updateFrequency": "Continuous",
+        "communityRating": 9.3,
+        "documentationQuality": 8.6,
+        "supportQuality": 8.2,
+        "interfaceDesign": 8.4,
+        "mobileExperience": 8.3
+      },
+      "prosAndCons": {
+        "pros": [
+          "Exceptional cost efficiency",
+          "Outstanding reasoning capabilities",
+          "Open source availability",
+          "Minimal energy consumption"
+        ],
+        "cons": [
+          "Limited multimodal features",
+          "Compliance uncertainties",
+          "Geographic restrictions",
+          "Language model censorship"
+        ],
+        "bestFor": [
+          "Cost-sensitive applications",
+          "Complex reasoning tasks",
+          "Mathematical problem solving",
+          "Research and development"
+        ],
+        "avoidWhen": [
+          "Need multimodal capabilities",
+          "Strict compliance requirements",
+          "Sensitive topic discussions",
+          "Enterprise-grade support needed"
+        ]
+      }
+    },
+    "qwen-2.5-max": {
+      "id": "qwen-2.5-max",
+      "name": "Qwen 2.5-Max",
+      "company": "Alibaba",
+      "country": "🇨🇳",
+      "countryCode": "CN",
+      "website": "https://tongyi.aliyun.com",
+      "releaseDate": "2025-01-28",
+      "lastUpdate": "2025-07-05",
+      "modelInfo": {
+        "parameters": "~688B (MoE)",
+        "parametersNumeric": 688000000000,
+        "architecture": "MoE",
+        "contextWindow": 128000,
+        "contextWindowFormatted": "128K tokens",
+        "trainingData": "Up to January 2025",
+        "multimodal": true,
+        "supportedModes": ["text", "image", "video", "audio"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0007,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 18,
+          "efficiencyClass": "low"
+        },
+        "imageGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "videoGeneration": {
+          "value": null,
+          "unit": "kWh",
+          "description": "Not available",
+          "batteryFillPercentage": 0,
+          "efficiencyClass": "not-available"
+        },
+        "trainingEnergy": {
+          "value": 650,
+          "unit": "MWh",
+          "batteryFillPercentage": 15,
+          "efficiencyClass": "low"
+        },
+        "carbonFootprint": {
+          "value": 1.05,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 15,
+          "efficiencyClass": "low"
+        },
+        "environmentalRating": "A",
+        "sustainabilityScore": 4.0
+      },
+      "performance": {
+        "mmluBenchmark": 89.4,
+        "responseLatency": 0.9,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 9.0,
+        "accuracyScore": 92.1,
+        "codingAbility": 92.7,
+        "reasoningAbility": 90.8,
+        "mathematicalReasoning": 91.5,
+        "overallPerformance": 9.0
+      },
+      "economics": {
+        "apiPricing": 3.50,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.008,
+        "costPerQueryUnit": "$",
+        "trainingCost": 12000000,
+        "trainingCostUnit": "$",
+        "valueRating": "A",
+        "pricePerformanceRatio": 9.5
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image", "Video", "Audio"],
+        "programmingLanguages": "60+ languages",
+        "specialFeatures": ["Multimodal Understanding", "Dynamic Computation", "Alibaba Cloud Integration", "Computer Control"],
+        "apiAvailable": true,
+        "openSource": true,
+        "maxTokensPerMinute": 200000,
+        "rateLimits": "Competitive free tier"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "API", "Cloud", "Mobile"],
+        "geographicRegions": "Global (some restrictions)",
+        "enterpriseSupport": true,
+        "developmentTools": true,
+        "documentation": "Excellent",
+        "communitySupport": "High"
+      },
+      "compliance": {
+        "gdprCompliance": "Partial",
+        "gdprRating": "B",
+        "euAiActClassification": "Foundation Model",
+        "dataLocalization": ["China", "Singapore options"],
+        "privacyRating": "B",
+        "certifications": ["ISO 27001"],
+        "dataRetention": "User controlled",
+        "rightToDelete": true
+      },
+      "userExperience": {
+        "easeOfUse": 8.8,
+        "developerPreference": 8.9,
+        "updateFrequency": "Bi-weekly",
+        "communityRating": 8.7,
+        "documentationQuality": 9.1,
+        "supportQuality": 8.5,
+        "interfaceDesign": 8.6,
+        "mobileExperience": 8.8
+      },
+      "prosAndCons": {
+        "pros": [
+          "Excellent price-performance ratio",
+          "Strong multimodal capabilities",
+          "Alibaba ecosystem integration",
+          "Open source availability"
+        ],
+        "cons": [
+          "Limited Western market presence",
+          "Compliance complexities",
+          "Language barriers",
+          "Regional access restrictions"
+        ],
+        "bestFor": [
+          "Cost-effective multimodal applications",
+          "Asian market deployments",
+          "Alibaba Cloud users",
+          "Research and experimentation"
+        ],
+        "avoidWhen": [
+          "Need Western compliance",
+          "Require enterprise support",
+          "Sensitive data processing",
+          "Real-time critical applications"
+        ]
+      }
+    },
+    "step-2": {
+      "id": "step-2",
+      "name": "Step-2",
+      "company": "Stepfun",
+      "country": "🇨🇳",
+      "countryCode": "CN",
+      "website": "https://stepfun.com",
+      "releaseDate": "2025-03-15",
+      "lastUpdate": "2025-07-02",
+      "modelInfo": {
+        "parameters": "~1T+",
+        "parametersNumeric": 1000000000000,
+        "architecture": "Multimodal MoE",
+        "contextWindow": 256000,
+        "contextWindowFormatted": "256K tokens",
+        "trainingData": "Up to February 2025",
+        "multimodal": true,
+        "supportedModes": ["text", "image", "video", "audio"]
+      },
+      "energy": {
+        "textQuery": {
+          "value": 0.0010,
+          "unit": "kWh",
+          "description": "Per 1000 words",
+          "batteryFillPercentage": 30,
+          "efficiencyClass": "medium"
+        },
+        "imageGeneration": {
+          "value": 0.009,
+          "unit": "kWh",
+          "description": "Per image",
+          "batteryFillPercentage": 45,
+          "efficiencyClass": "medium"
+        },
+        "videoGeneration": {
+          "value": 0.32,
+          "unit": "kWh",
+          "description": "Per 30 seconds",
+          "batteryFillPercentage": 65,
+          "efficiencyClass": "high"
+        },
+        "trainingEnergy": {
+          "value": 1800,
+          "unit": "MWh",
+          "batteryFillPercentage": 45,
+          "efficiencyClass": "medium"
+        },
+        "carbonFootprint": {
+          "value": 1.48,
+          "unit": "g CO₂/query",
+          "batteryFillPercentage": 22,
+          "efficiencyClass": "low"
+        },
+        "environmentalRating": "A-",
+        "sustainabilityScore": 3.7
+      },
+      "performance": {
+        "mmluBenchmark": 86.3,
+        "responseLatency": 1.0,
+        "responseLatencyUnit": "seconds",
+        "qualityRating": 8.7,
+        "accuracyScore": 90.5,
+        "codingAbility": 87.8,
+        "reasoningAbility": 88.9,
+        "mathematicalReasoning": 89.2,
+        "overallPerformance": 8.7
+      },
+      "economics": {
+        "apiPricing": 4.00,
+        "apiPricingUnit": "$/M tokens",
+        "costPerQuery": 0.009,
+        "costPerQueryUnit": "$",
+        "trainingCost": 25000000,
+        "trainingCostUnit": "$",
+        "valueRating": "A-",
+        "pricePerformanceRatio": 8.8
+      },
+      "technical": {
+        "multimodalSupport": ["Text", "Image", "Video", "Audio"],
+        "programmingLanguages": "55+ languages",
+        "specialFeatures": ["Multimodal Generation", "Long Context", "Visual Understanding", "Audio Processing"],
+        "apiAvailable": true,
+        "openSource": false,
+        "maxTokensPerMinute": 180000,
+        "rateLimits": "Moderate free tier"
+      },
+      "accessibility": {
+        "platformAvailability": ["Web", "API", "Mobile"],
+        "geographicRegions": "Asia-Pacific primary",
+        "enterpriseSupport": false,
+        "developmentTools": false,
+        "documentation": "Good",
+        "communitySupport": "Medium"
+      },
+      "compliance": {
+        "gdprCompliance": "Limited",
+        "gdprRating": "C",
+        "euAiActClassification": "Foundation Model",
+        "dataLocalization": ["China primary"],
+        "privacyRating": "C",
+        "certifications": ["None disclosed"],
+        "dataRetention": "Unclear",
+        "rightToDelete": false
+      },
+      "userExperience": {
+        "easeOfUse": 8.3,
+        "developerPreference": 8.0,
+        "updateFrequency": "Monthly",
+        "communityRating": 8.1,
+        "documentationQuality": 7.9,
+        "supportQuality": 7.7,
+        "interfaceDesign": 8.2,
+        "mobileExperience": 8.4
+      },
+      "prosAndCons": {
+        "pros": [
+          "Comprehensive multimodal capabilities",
+          "Large context window",
+          "Competitive pricing",
+          "Strong visual understanding"
+        ],
+        "cons": [
+          "Limited global availability",
+          "Newer company with less track record",
+          "Compliance uncertainties",
+          "Limited enterprise features"
+        ],
+        "bestFor": [
+          "Multimodal content creation",
+          "Visual analysis tasks",
+          "Asian market applications",
+          "Creative projects"
+        ],
+        "avoidWhen": [
+          "Need strict compliance",
+          "Require enterprise support",
+          "Western market focus",
+          "Mission-critical applications"
+        ]
+      }
+    }
+  },
+  "comparisons": {
+    "energyEfficiency": {
+      "mostEfficient": "deepseek-r1",
+      "leastEfficient": "grok-3",
+      "averageConsumption": 0.00153
+    },
+    "performance": {
+      "highest": "claude-sonnet-4",
+      "lowest": "perplexity-pro",
+      "averageScore": 8.77
+    },
+    "costEffectiveness": {
+      "mostAffordable": "deepseek-r1",
+      "mostExpensive": "grok-3",
+      "averageCost": 0.021
+    },
+    "sustainability": {
+      "greenest": "deepseek-r1",
+      "leastGreen": "grok-3",
+      "averageRating": 3.4
+    }
+  },
+  "categories": {
+    "modelInformation": {
+      "name": "Model Information",
+      "icon": "📋",
+      "description": "Basic specifications and architectural details"
+    },
+    "energyEnvironmental": {
+      "name": "Energy & Environmental Impact",
+      "icon": "⚡",
+      "description": "Energy consumption, carbon footprint, and sustainability metrics",
+      "primary": true
+    },
+    "performance": {
+      "name": "Performance Metrics",
+      "icon": "📊",
+      "description": "Benchmark scores, response times, and quality ratings"
+    },
+    "economics": {
+      "name": "Economic Factors",
+      "icon": "💰",
+      "description": "Pricing, costs, and value propositions"
+    },
+    "technical": {
+      "name": "Technical Capabilities",
+      "icon": "🔧",
+      "description": "Features, supported formats, and technical specifications"
+    },
+    "accessibility": {
+      "name": "Accessibility & Deployment",
+      "icon": "🌐",
+      "description": "Platform availability, regional access, and deployment options"
+    },
+    "compliance": {
+      "name": "Data Compliance & Security",
+      "icon": "🔒",
+      "description": "Regulatory compliance, privacy, and security standards"
+    },
+    "userExperience": {
+      "name": "User Experience",
+      "icon": "👥",
+      "description": "Usability, developer satisfaction, and community support"
+    },
+    "prosAndCons": {
+      "name": "Pros & Cons",
+      "icon": "✅❌",
+      "description": "Advantages, limitations, and use case recommendations"
+    }
+  },
+  "updateLog": [
+    {
+      "date": "2025-07-09",
+      "version": "1.0.0",
+      "changes": [
+        "Initial dataset creation",
+        "Added 9 AI models with comprehensive metrics",
+        "Implemented energy efficiency rating system",
+        "Added compliance and regulatory data",
+        "Created performance benchmark comparisons"
+      ]
+    }
+  ]
+}
