@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot Comparison 2025 - Energy Consumption & Performance Analysis</title>
+    <meta name="description" content="Comprehensive comparison of AI chatbots focusing on energy consumption, performance, and compliance. Compare ChatGPT, Claude, Gemini, and more.">
+    <meta name="keywords" content="AI chatbot, energy consumption, performance comparison, ChatGPT, Claude, Gemini, environmental impact">
+    <meta name="author" content="Naully Nicolas">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-username.github.io/ai-chatbot-comparison-2025/">
+    <meta property="og:title" content="AI Chatbot Comparison 2025">
+    <meta property="og:description" content="Comprehensive energy consumption & performance analysis of leading AI models">
+    <meta property="og:image" content="https://your-username.github.io/ai-chatbot-comparison-2025/assets/preview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-username.github.io/ai-chatbot-comparison-2025/">
+    <meta property="twitter:title" content="AI Chatbot Comparison 2025">
+    <meta property="twitter:description" content="Comprehensive energy consumption & performance analysis of leading AI models">
+    <meta property="twitter:image" content="https://your-username.github.io/ai-chatbot-comparison-2025/assets/preview.png">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1 class="title">AI Chatbot Comparison 2025</h1>
+            <p class="subtitle">Comprehensive Energy Consumption & Performance Analysis</p>
+            <p class="author-date">By Naully Nicolas • July 2025</p>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <button class="nav-btn active" data-view="table">📊 Comparison Table</button>
+            <button class="nav-btn" data-view="charts">📈 Energy Charts</button>
+            <button class="nav-btn" data-view="filter">🔍 Advanced Filter</button>
+        </nav>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <h3>🚀 Introduction</h3>
+            <p>This interactive comparison table provides a comprehensive analysis of leading AI chatbots in 2025, focusing on energy consumption, performance metrics, and compliance standards. As artificial intelligence becomes increasingly integrated into our daily workflows, understanding the environmental impact and efficiency of these models has never been more crucial.</p>
+            <p>Each model is evaluated across 9 key categories using real-world data and standardized benchmarks. The battery-style energy gauges provide an intuitive visual representation of power consumption, making it easy to identify the most sustainable options for your specific needs.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-controls" id="filterControls">
+            <div class="filter-group">
+                <label for="energyFilter">Energy Efficiency:</label>
+                <select id="energyFilter">
+                    <option value="all">All Levels</option>
+                    <option value="high">High Efficiency (A-B)</option>
+                    <option value="medium">Medium Efficiency (B-C)</option>
+                    <option value="low">Low Efficiency (C-F)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="priceFilter">Price Range:</label>
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="budget">Budget (< $10/M tokens)</option>
+                    <option value="mid">Mid-range ($10-20/M tokens)</option>
+                    <option value="premium">Premium (> $20/M tokens)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="complianceFilter">GDPR Compliance:</label>
+                <select id="complianceFilter">
+                    <option value="all">All</option>
+                    <option value="compliant">Compliant Only</option>
+                    <option value="partial">Partial Compliance</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Main Table Container -->
+        <div class="table-container" id="tableContainer">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th class="category-row">Models</th>
+                        <th class="model-header">
+                            <div class="model-name">ChatGPT-4o</div>
+                            <a href="https://chat.openai.com" class="model-link">chat.openai.com</a>
+                            <div class="country-flag">🇺🇸</div>
+                        </th>
+                        <th class="model-header">
+                            <div class="model-name">Claude Sonnet 4</div>
+                            <a href="https://claude.ai" class="model-link">claude.ai</a>
+                            <div class="country-flag">🇺🇸</div>
+                        </th>
+                        <th class="model-header">
+                            <div class="model-name">Gemini Pro</div>
+                            <a href="https://gemini.google.com" class="model-link">gemini.google.com</a>
+                            <div class="country-flag">🇺🇸</div>
+                        </th>
+                        <th class="model-header">
+                            <div class="model-name">Perplexity Pro</div>
+                            <a href="https://perplexity.ai" class="model-link">perplexity.ai</a>
+                            <div class="country-flag">🇺🇸</div>
+                        </th>
+                        <th class="model-header">
+                            <div class="model-name">Mistral Large</div>
+                            <a href="https://mistral.ai" class="model-link">mistral.ai</a>
+                            <div class="country-flag">🇫🇷</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Model Information -->
+                    <tr>
+                        <td class="category-row">📋 Model Information</td>
+                        <td class="data-cell">
+                            <strong>Released:</strong> May 2024<br>
+                            <strong>Parameters:</strong> ~1.8T<br>
+                            <strong>Architecture:</strong> Transformer
+                        </td>
+                        <td class="data-cell">
+                            <strong>Released:</strong> May 2025<br>
+                            <strong>Parameters:</strong> ~200B<br>
+                            <strong>Architecture:</strong> Constitutional AI
+                        </td>
+                        <td class="data-cell">
+                            <strong>Released:</strong> Dec 2024<br>
+                            <strong>Parameters:</strong> ~540B<br>
+                            <strong>Architecture:</strong> Gemini 2.0
+                        </td>
+                        <td class="data-cell">
+                            <strong>Released:</strong> Jan 2025<br>
+                            <strong>Parameters:</strong> ~70B<br>
+                            <strong>Architecture:</strong> RAG-Enhanced
+                        </td>
+                        <td class="data-cell">
+                            <strong>Released:</strong> Feb 2025<br>
+                            <strong>Parameters:</strong> ~405B<br>
+                            <strong>Architecture:</strong> Mixture of Experts
+                        </td>
+                    </tr>
+
+                    <!-- Energy & Environmental Impact -->
+                    <tr>
+                        <td class="category-row">⚡ Energy & Environmental Impact</td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="gauge-label">⚡ Energy per Query</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-orange" style="width: 70%;" data-width="70%"></div>
+                                </div>
+                                <div class="battery-value">0.007 kWh</div>
+                                <div class="energy-comparison">
+                                    <span class="energy-type text-energy">Text (1000w): 0.005 kWh</span>
+                                    <span class="energy-type image-energy">Image Gen: 0.015 kWh</span>
+                                    <span class="energy-type video-energy">Video: N/A</span>
+                                </div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🔋 Training Energy</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-red" style="width: 95%;" data-width="95%"></div>
+                                </div>
+                                <div class="battery-value">62,000 MWh</div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🌿 Carbon Footprint</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-orange" style="width: 60%;" data-width="60%"></div>
+                                </div>
+                                <div class="battery-value">4.2 g CO₂</div>
+                            </div>
+                            <div style="margin-top: 10px;">🌍 <strong>Rating: B</strong></div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="gauge-label">⚡ Energy per Query</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-green" style="width: 25%;" data-width="25%"></div>
+                                </div>
+                                <div class="battery-value">0.002 kWh</div>
+                                <div class="energy-comparison">
+                                    <span class="energy-type text-energy">Text (1000w): 0.0015 kWh</span>
+                                    <span class="energy-type image-energy">Image Gen: N/A</span>
+                                    <span class="energy-type video-energy">Video: N/A</span>
+                                </div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🔋 Training Energy</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-yellow" style="width: 40%;" data-width="40%"></div>
+                                </div>
+                                <div class="battery-value">8,500 MWh</div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🌿 Carbon Footprint</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-green" style="width: 20%;" data-width="20%"></div>
+                                </div>
+                                <div class="battery-value">1.8 g CO₂</div>
+                            </div>
+                            <div style="margin-top: 10px;">🌍 <strong>Rating: A</strong></div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="gauge-label">⚡ Energy per Query</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-yellow" style="width: 45%;" data-width="45%"></div>
+                                </div>
+                                <div class="battery-value">0.004 kWh</div>
+                                <div class="energy-comparison">
+                                    <span class="energy-type text-energy">Text (1000w): 0.003 kWh</span>
+                                    <span class="energy-type image-energy">Image Gen: 0.012 kWh</span>
+                                    <span class="energy-type video-energy">Video: 0.025 kWh</span>
+                                </div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🔋 Training Energy</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-orange" style="width: 75%;" data-width="75%"></div>
+                                </div>
+                                <div class="battery-value">35,000 MWh</div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🌿 Carbon Footprint</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-yellow" style="width: 35%;" data-width="35%"></div>
+                                </div>
+                                <div class="battery-value">2.8 g CO₂</div>
+                            </div>
+                            <div style="margin-top: 10px;">🌍 <strong>Rating: B+</strong></div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="gauge-label">⚡ Energy per Query</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-green" style="width: 30%;" data-width="30%"></div>
+                                </div>
+                                <div class="battery-value">0.003 kWh</div>
+                                <div class="energy-comparison">
+                                    <span class="energy-type text-energy">Text (1000w): 0.002 kWh</span>
+                                    <span class="energy-type image-energy">Image Gen: N/A</span>
+                                    <span class="energy-type video-energy">Video: N/A</span>
+                                </div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🔋 Training Energy</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-green" style="width: 20%;" data-width="20%"></div>
+                                </div>
+                                <div class="battery-value">2,800 MWh</div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🌿 Carbon Footprint</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-green" style="width: 25%;" data-width="25%"></div>
+                                </div>
+                                <div class="battery-value">2.1 g CO₂</div>
+                            </div>
+                            <div style="margin-top: 10px;">🌍 <strong>Rating: A-</strong></div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="battery-gauge">
+                                <div class="gauge-label">⚡ Energy per Query</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-yellow" style="width: 50%;" data-width="50%"></div>
+                                </div>
+                                <div class="battery-value">0.005 kWh</div>
+                                <div class="energy-comparison">
+                                    <span class="energy-type text-energy">Text (1000w): 0.004 kWh</span>
+                                    <span class="energy-type image-energy">Image Gen: N/A</span>
+                                    <span class="energy-type video-energy">Video: N/A</span>
+                                </div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🔋 Training Energy</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-yellow" style="width: 55%;" data-width="55%"></div>
+                                </div>
+                                <div class="battery-value">18,500 MWh</div>
+                            </div>
+                            <div class="battery-gauge">
+                                <div class="gauge-label">🌿 Carbon Footprint</div>
+                                <div class="battery-container">
+                                    <div class="battery-fill battery-green" style="width: 28%;" data-width="28%"></div>
+                                </div>
+                                <div class="battery-value">2.3 g CO₂</div>
+                            </div>
+                            <div style="margin-top: 10px;">🌍 <strong>Rating: B+</strong></div>
+                        </td>
+                    </tr>
+
+                    <!-- Performance Metrics -->
+                    <tr>
+                        <td class="category-row">📊 Performance Metrics</td>
+                        <td class="data-cell">
+                            <strong>MMLU:</strong> 87.2%<br>
+                            <strong>Latency:</strong> 1.2s<br>
+                            <strong>Context:</strong> 128K tokens<br>
+                            <strong>Quality:</strong> 9.1/10
+                        </td>
+                        <td class="data-cell">
+                            <strong>MMLU:</strong> 89.7%<br>
+                            <strong>Latency:</strong> 0.8s<br>
+                            <strong>Context:</strong> 200K tokens<br>
+                            <strong>Quality:</strong> 9.4/10
+                        </td>
+                        <td class="data-cell">
+                            <strong>MMLU:</strong> 85.9%<br>
+                            <strong>Latency:</strong> 1.0s<br>
+                            <strong>Context:</strong> 2M tokens<br>
+                            <strong>Quality:</strong> 8.8/10
+                        </td>
+                        <td class="data-cell">
+                            <strong>MMLU:</strong> 82.3%<br>
+                            <strong>Latency:</strong> 0.6s<br>
+                            <strong>Context:</strong> 32K tokens<br>
+                            <strong>Quality:</strong> 8.2/10
+                        </td>
+                        <td class="data-cell">
+                            <strong>MMLU:</strong> 84.1%<br>
+                            <strong>Latency:</strong> 0.9s<br>
+                            <strong>Context:</strong> 128K tokens<br>
+                            <strong>Quality:</strong> 8.6/10
+                        </td>
+                    </tr>
+
+                    <!-- Economic Factors -->
+                    <tr>
+                        <td class="category-row">💰 Economic Factors</td>
+                        <td class="data-cell">
+                            <strong>API:</strong> $15/M tokens<br>
+                            <strong>Per Query:</strong> $0.045<br>
+                            <strong>Training:</strong> $100M<br>
+                            <span class="rating-stars">★★★☆☆</span>
+                        </td>
+                        <td class="data-cell">
+                            <strong>API:</strong> $15/M tokens<br>
+                            <strong>Per Query:</strong> $0.045<br>
+                            <strong>Training:</strong> $25M<br>
+                            <span class="rating-stars">★★★★☆</span>
+                        </td>
+                        <td class="data-cell">
+                            <strong>API:</strong> $7/M tokens<br>
+                            <strong>Per Query:</strong> $0.021<br>
+                            <strong>Training:</strong> $80M<br>
+                            <span class="rating-stars">★★★★★</span>
+                        </td>
+                        <td class="data-cell">
+                            <strong>API:</strong> $20/M tokens<br>
+                            <strong>Per Query:</strong> $0.060<br>
+                            <strong>Training:</strong> $5M<br>
+                            <span class="rating-stars">★★☆☆☆</span>
+                        </td>
+                        <td class="data-cell">
+                            <strong>API:</strong> $8/M tokens<br>
+                            <strong>Per Query:</strong> $0.024<br>
+                            <strong>Training:</strong> $35M<br>
+                            <span class="rating-stars">★★★★☆</span>
+                        </td>
+                    </tr>
+
+                    <!-- Technical Capabilities -->
+                    <tr>
+                        <td class="category-row">🔧 Technical Capabilities</td>
+                        <td class="data-cell">
+                            <strong>Multimodal:</strong> Text, Image<br>
+                            <strong>Code:</strong> 40+ languages<br>
+                            <strong>Accuracy:</strong> 94.2%<br>
+                            <strong>Features:</strong> GPTs, Plugins
+                        </td>
+                        <td class="data-cell">
+                            <strong>Multimodal:</strong> Text only<br>
+                            <strong>Code:</strong> 50+ languages<br>
+                            <strong>Accuracy:</strong> 96.1%<br>
+                            <strong>Features:</strong> Artifacts, Analysis
+                        </td>
+                        <td class="data-cell">
+                            <strong>Multimodal:</strong> Text, Image, Video<br>
+                            <strong>Code:</strong> 35+ languages<br>
+                            <strong>Accuracy:</strong> 92.8%<br>
+                            <strong>Features:</strong> Integration suite
+                        </td>
+                        <td class="data-cell">
+                            <strong>Multimodal:</strong> Text, Image<br>
+                            <strong>Code:</strong> 25+ languages<br>
+                            <strong>Accuracy:</strong> 89.5%<br>
+                            <strong>Features:</strong> Real-time search
+                        </td>
+                        <td class="data-cell">
+                            <strong>Multimodal:</strong> Text only<br>
+                            <strong>Code:</strong> 45+ languages<br>
+                            <strong>Accuracy:</strong> 93.7%<br>
+                            <strong>Features:</strong> Open source variants
+                        </td>
+                    </tr>
+
+                    <!-- Accessibility & Deployment -->
+                    <tr>
+                        <td class="category-row">🌐 Accessibility & Deployment</td>
+                        <td class="data-cell">
+                            <strong>Available:</strong> API, Web, Mobile<br>
+                            <strong>Regions:</strong> Global (limited)<br>
+                            <strong>Limits:</strong> 40 msgs/3h<br>
+                            <strong>Enterprise:</strong> ✓
+                        </td>
+                        <td class="data-cell">
+                            <strong>Available:</strong> API, Web, Mobile<br>
+                            <strong>Regions:</strong> Global<br>
+                            <strong>Limits:</strong> Flexible<br>
+                            <strong>Enterprise:</strong> ✓
+                        </td>
+                        <td class="data-cell">
+                            <strong>Available:</strong> API, Web, Mobile<br>
+                            <strong>Regions:</strong> Global<br>
+                            <strong>Limits:</strong> Generous<br>
+                            <strong>Enterprise:</strong> ✓
+                        </td>
+                        <td class="data-cell">
+                            <strong>Available:</strong> Web, Mobile<br>
+                            <strong>Regions:</strong> Global<br>
+                            <strong>Limits:</strong> 5 searches/4h<br>
+                            <strong>Enterprise:</strong> ✓
+                        </td>
+                        <td class="data-cell">
+                            <strong>Available:</strong> API, Open Source<br>
+                            <strong>Regions:</strong> Global<br>
+                            <strong>Limits:</strong> API-based<br>
+                            <strong>Enterprise:</strong> ✓
+                        </td>
+                    </tr>
+
+                    <!-- Data Compliance & Security -->
+                    <tr>
+                        <td class="category-row">🔒 Data Compliance & Security</td>
+                        <td class="data-cell">
+                            <span class="compliance-badge badge-compliant">GDPR ✓</span><br>
+                            <strong>AI Act:</strong> High Risk<br>
+                            <strong>Localization:</strong> Flexible<br>
+                            <strong>Privacy:</strong> B+
+                        </td>
+                        <td class="data-cell">
+                            <span class="compliance-badge badge-compliant">GDPR ✓</span><br>
+                            <strong>AI Act:</strong> Limited Risk<br>
+                            <strong>Localization:</strong> Flexible<br>
+                            <strong>Privacy:</strong> A-
+                        </td>
+                        <td class="data-cell">
+                            <span class="compliance-badge badge-compliant">GDPR ✓</span><br>
+                            <strong>AI Act:</strong> High Risk<br>
+                            <strong>Localization:</strong> Required<br>
+                            <strong>Privacy:</strong> B
+                        </td>
+                        <td class="data-cell">
+                            <span class="compliance-badge badge-partial">GDPR ~</span><br>
+                            <strong>AI Act:</strong> Limited Risk<br>
+                            <strong>Localization:</strong> Flexible<br>
+                            <strong>Privacy:</strong> B-
+                        </td>
+                        <td class="data-cell">
+                            <span class="compliance-badge badge-compliant">GDPR ✓</span><br>
+                            <strong>AI Act:</strong> Limited Risk<br>
+                            <strong>Localization:</strong> EU Priority<br>
+                            <strong>Privacy:</strong> A-
+                        </td>
+                    </tr>
+
+                    <!-- User Experience -->
+                    <tr>
+                        <td class="category-row">👥 User Experience</td>
+                        <td class="data-cell">
+                            <strong>Ease of Use:</strong> 9.2/10<br>
+                            <strong>Developer Pref:</strong> 68%<br>
+                            <strong>Updates:</strong> Monthly<br>
+                            <strong>Community:</strong> Excellent
+                        </td>
+                        <td class="data-cell">
+                            <strong>Ease of Use:</strong> 9.6/10<br>
+                            <strong>Developer Pref:</strong> 71%<br>
+                            <strong>Updates:</strong> Bi-weekly<br>
+                            <strong>Community:</strong> Excellent
+                        </td>
+                        <td class="data-cell">
+                            <strong>Ease of Use:</strong> 8.8/10<br>
+                            <strong>Developer Pref:</strong> 64%<br>
+                            <strong>Updates:</strong> Monthly<br>
+                            <strong>Community:</strong> Good
+                        </td>
+                        <td class="data-cell">
+                            <strong>Ease of Use:</strong> 8.9/10<br>
+                            <strong>Developer Pref:</strong> 58%<br>
+                            <strong>Updates:</strong> Weekly<br>
+                            <strong>Community:</strong> Good
+                        </td>
+                        <td class="data-cell">
+                            <strong>Ease of Use:</strong> 7.8/10<br>
+                            <strong>Developer Pref:</strong> 72%<br>
+                            <strong>Updates:</strong> Bi-weekly<br>
+                            <strong>Community:</strong> Excellent
+                        </td>
+                    </tr>
+
+                    <!-- Pros & Cons -->
+                    <tr>
+                        <td class="category-row">✅❌ Pros & Cons</td>
+                        <td class="data-cell">
+                            <div class="pros-cons">
+                                <div class="pros">
+                                    <h4>✅ PROS:</h4>
+                                    <ul>
+                                        <li>Excellent multimodal capabilities</li>
+                                        <li>Large ecosystem with GPTs</li>
+                                        <li>Strong creative writing</li>
+                                        <li>Wide adoption</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <h4>❌ CONS:</h4>
+                                    <ul>
+                                        <li>Higher energy consumption</li>
+                                        <li>Rate limits on free tier</li>
+                                        <li>Expensive API pricing</li>
+                                        <li>Regional restrictions</li>
+                                    </ul>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <strong>💡 Best For:</strong> Creative tasks, general purpose<br>
+                                    <strong>⚠️ Avoid If:</strong> Budget-constrained, high-volume usage
+                                </div>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="pros-cons">
+                                <div class="pros">
+                                    <h4>✅ PROS:</h4>
+                                    <ul>
+                                        <li>Excellent reasoning abilities</li>
+                                        <li>Low energy consumption</li>
+                                        <li>Strong safety measures</li>
+                                        <li>Long context window</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <h4>❌ CONS:</h4>
+                                    <ul>
+                                        <li>Text-only capabilities</li>
+                                        <li>Limited integrations</li>
+                                        <li>Newer ecosystem</li>
+                                        <li>Premium pricing</li>
+                                    </ul>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <strong>💡 Best For:</strong> Analysis, reasoning, safety-critical tasks<br>
+                                    <strong>⚠️ Avoid If:</strong> Need multimodal, image generation
+                                </div>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="pros-cons">
+                                <div class="pros">
+                                    <h4>✅ PROS:</h4>
+                                    <ul>
+                                        <li>Full multimodal support</li>
+                                        <li>Massive context window</li>
+                                        <li>Google integration</li>
+                                        <li>Competitive pricing</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <h4>❌ CONS:</h4>
+                                    <ul>
+                                        <li>Data localization concerns</li>
+                                        <li>Inconsistent performance</li>
+                                        <li>Privacy questions</li>
+                                        <li>Limited customization</li>
+                                    </ul>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <strong>💡 Best For:</strong> Multimodal tasks, integration projects<br>
+                                    <strong>⚠️ Avoid If:</strong> EU compliance priority, privacy-sensitive
+                                </div>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="pros-cons">
+                                <div class="pros">
+                                    <h4>✅ PROS:</h4>
+                                    <ul>
+                                        <li>Real-time search capabilities</li>
+                                        <li>Low energy consumption</li>
+                                        <li>Fast response times</li>
+                                        <li>Source citations</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <h4>❌ CONS:</h4>
+                                    <ul>
+                                        <li>Limited creative abilities</li>
+                                        <li>Expensive pricing</li>
+                                        <li>Narrow use case</li>
+                                        <li>Search-dependent</li>
+                                    </ul>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <strong>💡 Best For:</strong> Research, real-time information<br>
+                                    <strong>⚠️ Avoid If:</strong> Creative writing, offline usage
+                                </div>
+                            </div>
+                        </td>
+                        <td class="data-cell">
+                            <div class="pros-cons">
+                                <div class="pros">
+                                    <h4>✅ PROS:</h4>
+                                    <ul>
+                                        <li>Open source variants</li>
+                                        <li>Strong code capabilities</li>
+                                        <li>EU-based provider</li>
+                                        <li>Competitive pricing</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <h4>❌ CONS:</h4>
+                                    <ul>
+                                        <li>Text-only capabilities</li>
+                                        <li>Smaller ecosystem</li>
+                                        <li>Limited integrations</li>
+                                        <li>Newer in market</li>
+                                    </ul>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <strong>💡 Best For:</strong> Code development, EU compliance<br>
+                                    <strong>⚠️ Avoid If:</strong> Need multimodal, extensive ecosystem
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Charts Container -->
+        <div class="charts-container" id="chartsContainer" style="display: none;">
+            <div class="chart-section">
+                <h3>📊 Energy Consumption Comparison</h3>
+                <canvas id="energyChart"></canvas>
+            </div>
+            <div class="chart-section">
+                <h3>⚡ Performance vs Energy Efficiency</h3>
+                <canvas id="performanceChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Naully Nicolas. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/your-username/ai-chatbot-comparison-2025">GitHub</a>
+                <a href="mailto:your-email@domain.com">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
