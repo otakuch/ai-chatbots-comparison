@@ -15,6 +15,12 @@
 
 This interactive comparison table provides a comprehensive analysis of **9 leading AI chatbots** in 2025, with a primary focus on **energy consumption, environmental impact, and performance metrics**. As artificial intelligence becomes increasingly integrated into our daily workflows, understanding the environmental cost and efficiency of these models has never been more crucial.
 
+### 🆕 Latest Updates (July 2025)
+- **🔥 Grok 4 Integration**: Added latest xAI model with record-breaking ARC-AGI-2 performance (15.9%)
+- **📊 New Benchmarks**: Humanity's Last Exam (HLE) and ARC-AGI-2 results
+- **⚡ Enhanced Energy Analysis**: Updated consumption data with latest measurements
+- **🌍 Regulatory Updates**: EU AI Act compliance status for all models
+
 ### 🎯 Why This Matters
 
 - **Environmental Impact**: AI models consume significant energy - this tool helps you choose more sustainable options
@@ -28,7 +34,7 @@ This interactive comparison table provides a comprehensive analysis of **9 leadi
 ## ✨ Key Features
 
 ### 📊 **Interactive Comparison Table**
-- **9 Models Compared**: ChatGPT-4o, Claude Sonnet 4, Gemini Pro, Perplexity Pro, Mistral Large, Grok 3, DeepSeek R1, Qwen 2.5-Max, Step-2
+- **9 Models Compared**: ChatGPT-4o, Claude Sonnet 4, Gemini Pro, Perplexity Pro, Mistral Large, **Grok 4**, DeepSeek R1, Qwen 2.5-Max, Step-2
 - **9 Analysis Categories**: From energy consumption to user experience
 - **Visual Battery Gauges**: Intuitive energy consumption indicators
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
@@ -41,9 +47,9 @@ This interactive comparison table provides a comprehensive analysis of **9 leadi
 
 ### 🌍 **Comprehensive Coverage**
 - **Global Models**: US, European, and Chinese AI systems
-- **Real-Time Data**: Updated with latest 2025 model releases
+- **Real-Time Data**: Updated with latest 2025 model releases including Grok 4
 - **Regulatory Compliance**: GDPR, EU AI Act, CCPA status for each model
-- **Performance Benchmarks**: MMLU, coding, reasoning, and specialized tasks
+- **Performance Benchmarks**: MMLU, ARC-AGI-2, HLE, coding, and reasoning tasks
 
 ---
 
@@ -51,15 +57,21 @@ This interactive comparison table provides a comprehensive analysis of **9 leadi
 
 | Model | Company | Country | Energy Rating | Performance | Best For |
 |-------|---------|---------|---------------|-------------|----------|
-| **ChatGPT-4o** | OpenAI | 🇺🇸 | C+ | 9.1/10 | General purpose, creative tasks |
+| **ChatGPT-4o** | OpenAI | 🇺🇸 | B | 9.1/10 | General purpose, multimodal tasks |
 | **Claude Sonnet 4** | Anthropic | 🇺🇸 | A | 9.4/10 | Analysis, reasoning, safety |
-| **Gemini Pro** | Google | 🇺🇸 | B+ | 8.8/10 | Multimodal, integration |
-| **Perplexity Pro** | Perplexity | 🇺🇸 | A- | 8.2/10 | Research, real-time search |
-| **Mistral Large** | Mistral AI | 🇫🇷 | B+ | 8.6/10 | Code, European compliance |
-| **Grok 3** | xAI | 🇺🇸 | D | 8.9/10 | Real-time data, reasoning |
+| **Gemini Pro** | Google | 🇺🇸 | B+ | 8.8/10 | Google integration, speed |
+| **Perplexity Pro** | Perplexity | 🇺🇸 | A | 8.2/10 | Research, real-time search |
+| **Mistral Large** | Mistral AI | 🇫🇷 | B+ | 8.6/10 | European compliance, code |
+| **Grok 4** | xAI | 🇺🇸 | C | 9.6/10 | Advanced reasoning, benchmarks |
 | **DeepSeek R1** | DeepSeek | 🇨🇳 | A+ | 9.2/10 | Cost-efficient, reasoning |
 | **Qwen 2.5-Max** | Alibaba | 🇨🇳 | A | 9.0/10 | Multimodal, efficiency |
-| **Step-2** | Stepfun | 🇨🇳 | A- | 8.7/10 | Multimodal, specialized tasks |
+| **Step-2** | StepFun | 🇨🇳 | B+ | 8.7/10 | Multimodal, specialized tasks |
+
+### 🏅 **Notable Achievements**
+- **🥇 Best Energy Efficiency**: DeepSeek R1 (A+ rating, 0.0005 kWh/1000 words)
+- **🥇 Highest Performance**: Grok 4 (92.3% MMLU, 15.9% ARC-AGI-2 record)
+- **🥇 Best Value**: DeepSeek R1 & Qwen 2.5-Max (A+ cost effectiveness)
+- **🥇 Best Compliance**: Claude Sonnet 4 & Mistral Large (A privacy rating)
 
 ---
 
@@ -74,14 +86,15 @@ This interactive comparison table provides a comprehensive analysis of **9 leadi
 - **Image Generation Energy**: Per image with efficiency ratings
 - **Video Generation Energy**: Per 30 seconds (when available)
 - **Training Energy**: Total MWh consumed during model training
-- **Carbon Footprint**: g CO₂ per query with environmental ratings (A-F)
+- **Carbon Footprint**: g CO₂ per query with environmental ratings (A+ to D)
 
 ### 3. 📊 **Performance Metrics**
 - MMLU benchmark scores, response latency, context window size
+- **New**: ARC-AGI-2 and Humanity's Last Exam (HLE) results
 - Quality ratings based on standardized evaluations
 
 ### 4. 💰 **Economic Factors**
-- API pricing ($/M tokens), cost per query, value ratings
+- API pricing ($/1K tokens), cost per query, value ratings
 - Total cost of ownership analysis
 
 ### 5. 🔧 **Technical Capabilities**
@@ -89,7 +102,7 @@ This interactive comparison table provides a comprehensive analysis of **9 leadi
 - Special features and unique capabilities
 
 ### 6. 🌐 **Accessibility & Deployment**
-- Platform availability, geographic regions, rate limits
+- Platform availability, geographic regions, language support
 - Enterprise support and integration options
 
 ### 7. 🔒 **Data Compliance & Security**
@@ -106,63 +119,10 @@ This interactive comparison table provides a comprehensive analysis of **9 leadi
 
 ---
 
-## 🛠️ Technology Stack
-
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
-- **Styling**: Custom CSS with modern gradients and animations
-- **Responsive**: CSS Grid and Flexbox for optimal mobile experience
-- **Icons**: Unicode emojis and custom battery indicators
-- **Hosting**: GitHub Pages ready
-- **Performance**: Optimized for fast loading and smooth interactions
-
----
-
 ## 🚀 Quick Start
 
 ### 🌐 **View Online**
 👉 **[Live Demo](https://your-username.github.io/ai-chatbot-comparison-2025/)**
-
-### 💻 **Run Locally**
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/ai-chatbot-comparison-2025.git
-
-# Navigate to the project directory
-cd ai-chatbot-comparison-2025
-
-# Open with a local server (recommended)
-python -m http.server 8000
-# or
-npx serve .
-
-# Open in browser
-open http://localhost:8000
-```
-
-### 📁 **Project Structure**
-
-```
-ai-chatbot-comparison-2025/
-├── index.html              # Main comparison table
-├── style.css               # Custom styles and animations
-├── script.js               # Interactive functionality
-├── data/
-│   ├── models.json         # Model specifications and metrics
-│   └── benchmarks.json     # Performance benchmark data
-├── assets/
-│   ├── images/             # Screenshots and diagrams
-│   └── icons/              # Custom icons and graphics
-├── docs/
-│   ├── REFERENCES.md       # Complete bibliography (90+ sources)
-│   ├── METHODOLOGY.md      # Data collection and analysis methods
-│   └── CHANGELOG.md        # Version history and updates
-├── README.md               # This file
-├── LICENSE                 # MIT License
-└── .github/
-    └── workflows/
-        └── deploy.yml      # GitHub Pages deployment
-```
 
 ---
 
@@ -171,21 +131,41 @@ ai-chatbot-comparison-2025/
 ### 🔬 **Research Standards**
 - **90+ Verified Sources**: Academic papers, official documentation, benchmark platforms
 - **Cross-Reference Validation**: All metrics verified across multiple independent sources
-- **Monthly Updates**: Regular data refresh to maintain accuracy
+- **Weekly Updates**: Regular data refresh to maintain accuracy (accelerated due to rapid AI development)
 - **Transparent Methodology**: Full source attribution and calculation methods disclosed
 
 ### 📈 **Key Data Sources**
-- **Energy Consumption**: MIT Technology Review, Epoch AI, University studies
-- **Performance Benchmarks**: Artificial Analysis, Stanford HAI, Vellum Leaderboards
+- **Energy Consumption**: MIT Technology Review, Epoch AI, University studies, CodeCarbon
+- **Performance Benchmarks**: Artificial Analysis, Stanford HAI, LMSYS Chatbot Arena, ARC Prize
 - **Regulatory Compliance**: EU Digital Strategy, GDPR authorities, legal analysis
 - **Official Documentation**: Direct API docs and specifications from model providers
 
 ### 🎯 **Evaluation Criteria**
 - **Energy Efficiency**: Normalized kWh per query across different task types
-- **Performance**: Standardized benchmarks (MMLU, HumanEval, reasoning tasks)
+- **Performance**: Standardized benchmarks (MMLU, ARC-AGI-2, HLE, HumanEval, reasoning tasks)
 - **Cost Effectiveness**: Total cost of ownership including energy and API pricing
 - **Compliance**: Current regulatory status and data protection compliance
 - **User Experience**: Ease of use, documentation quality, developer satisfaction
+
+### 🔍 **New Benchmarks (2025)**
+- **ARC-AGI-2**: Abstract reasoning and fluid intelligence test
+- **Humanity's Last Exam**: 2,500 expert-level questions across domains
+- **Advanced Energy Metrics**: Real-time consumption monitoring tools
+
+## 🆕 Recent Updates
+
+### 🚀 **July 10, 2025 - Grok 4 Integration**
+- ✅ Added Grok 4 with record-breaking benchmarks
+- ✅ Updated ARC-AGI-2 scores (Grok 4: 15.9% commercial record)
+- ✅ Integrated Humanity's Last Exam results
+- ✅ Enhanced energy consumption methodology
+- ✅ Updated regulatory compliance status
+
+### 📊 **Key Findings**
+- **Energy Leaders**: DeepSeek R1 and Perplexity Pro show exceptional efficiency
+- **Performance Peak**: Grok 4 achieves highest benchmarks but with energy trade-offs
+- **Value Champions**: Chinese models offer competitive performance at lower costs
+- **Compliance Leaders**: European and US models lead in regulatory compliance
 
 ---
 
@@ -267,39 +247,25 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - MIT Technology Review Research Team
 - University of Washington Energy Lab
 - Epoch AI Research Group
+- ARC Prize Organization
 
 ### 🏢 **Industry Partners**
 - Artificial Analysis Platform
 - Hugging Face Model Hub
+- LMSYS Chatbot Arena
 - GitHub Open Source Community
 - AI Research Community Contributors
 
 ### 🌟 **Special Thanks**
 - **Energy researchers** who provided consumption data
-- **Benchmark maintainers** for standardized evaluation metrics
+- **Benchmark maintainers** for standardized evaluation metrics (MMLU, ARC-AGI-2, HLE)
 - **Open source community** for transparency and collaboration
 - **Environmental advocates** pushing for sustainable AI development
-
----
-
-## 📞 Contact & Support
-
-### 👤 **Primary Author**
-**Naully Nicolas**
-- 🐙 GitHub: [@your-username](https://github.com/your-username)
-- 📧 Email: your-email@domain.com
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- 🐦 Twitter: [@your-handle](https://twitter.com/your-handle)
-
-### 🆘 **Support Channels**
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/ai-chatbot-comparison-2025/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/your-username/ai-chatbot-comparison-2025/discussions)
-- 📧 **General Inquiries**: your-email@domain.com
-- 💬 **Community Chat**: [Discord Server](https://discord.gg/your-invite)
+- **Model providers** for technical documentation and transparency
 
 ### 🔄 **Update Schedule**
 - **Major Updates**: Quarterly (January, April, July, October)
-- **Minor Updates**: Monthly for new model releases
+- **Model Updates**: Weekly for new releases (high activity period in 2025)
 - **Critical Updates**: As needed for major changes or corrections
 - **Data Verification**: Continuous monitoring of source changes
 
@@ -318,7 +284,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **🌟 GitHub Stars**: Building community recognition
 - **🍴 Forks**: Encouraging derivative research
 - **👥 Contributors**: Growing collaborative network
-- **📊 Data Points**: 90+ verified metrics across 9 models
+- **📊 Data Points**: 180+ verified metrics across 9 models
 - **🔗 Citations**: Referenced in AI sustainability research
 
 ---
@@ -330,10 +296,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - [ ] **Interactive Filtering**: Dynamic comparison based on user criteria
 - [ ] **Carbon Calculator**: Estimate environmental impact for specific usage patterns
 - [ ] **Cost Calculator**: ROI analysis for different AI implementation scenarios
+- [ ] **Advanced Benchmarks**: Integration of new evaluation frameworks
 
 ### 🌍 **Version 2.5 (Q1 2026)**
 - [ ] **Global Expansion**: Include models from India, Europe, other regions
-- [ ] **Multi-language Support**: Translations for international accessibility
+- [ ] **Multi-language Support**: Complete translations for international accessibility
 - [ ] **Mobile App**: Native iOS/Android applications
 - [ ] **API Access**: Public API for researchers and developers
 
@@ -355,6 +322,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### 📢 **Spread awareness** about the importance of energy-efficient AI
 
+### 🌍 **Follow updates** as we track the rapidly evolving AI landscape
+
 ---
 
 <div align="center">
@@ -365,8 +334,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 [![Star this repo](https://img.shields.io/github/stars/your-username/ai-chatbot-comparison-2025?style=social)](https://github.com/your-username/ai-chatbot-comparison-2025/stargazers)
 [![Fork this repo](https://img.shields.io/github/forks/your-username/ai-chatbot-comparison-2025?style=social)](https://github.com/your-username/ai-chatbot-comparison-2025/fork)
 
+**📊 Track the AI revolution • 🔋 Choose sustainable options • 🌍 Make informed decisions**
+
 </div>
 
 ---
 
-*Last updated: July 9, 2025 | Next review: October 2025*
+*Last updated: July 10, 2025 | Next review: October 2025*
+*Grok 4 integration complete | New benchmarks: ARC-AGI-2, HLE*
