@@ -31,6 +31,28 @@
   - Grok 4 Performance: 15.9% (commercial record, ARC Prize validation)
   - Importance: Fluid intelligence and abstract reasoning test
 
+### AI Safety and Governance Research
+
+- **"Constitutional AI: Harmlessness from AI Feedback"**
+  - [Anthropic Paper](https://arxiv.org/abs/2212.08073) - Bai et al., 2022
+  - Application: Safety training methodology for Claude models
+
+- **"Sparks of Artificial General Intelligence: Early experiments with GPT-4"**
+  - [Microsoft Research](https://arxiv.org/abs/2303.12712) - Bubeck et al., 2023
+  - Context: Capabilities and safety considerations
+
+- **"AI Alignment: A Comprehensive Survey"**
+  - [Survey Paper](https://arxiv.org/abs/2310.19852) - Ji et al., 2023
+  - Coverage: AI safety research landscape
+
+- **"Red Teaming Language Models to Reduce Harms"**
+  - [Research Paper](https://arxiv.org/abs/2209.07858) - Ganguli et al., 2022
+  - Methodology: Safety testing approaches
+
+- **"Training language models to follow instructions with human feedback"**
+  - [OpenAI Paper](https://arxiv.org/abs/2203.02155) - Ouyang et al., 2022
+  - Technique: RLHF implementation
+
 ### Energy Efficiency Studies
 
 - **"Energy and Policy Considerations for Deep Learning in NLP"**
@@ -45,6 +67,10 @@
   - [Reference Article](https://arxiv.org/abs/1907.10597) - Schwartz et al., 2020
   - Vision: Development of more environmentally friendly AI
 
+- **"Power Hungry Processing: Watts Driving the Cost of AI Deployment?"**
+  - [Energy Analysis](https://arxiv.org/abs/2311.16863) - Luccioni et al., 2023
+  - Focus: Real-world energy consumption of AI systems
+
 ---
 
 ## 🏢 Official Company Documentation
@@ -55,6 +81,8 @@
 - **API Documentation**: [https://platform.openai.com/docs](https://platform.openai.com/docs)
 - **Research Papers**: [https://openai.com/research](https://openai.com/research)
 - **GPT-4 Technical Report**: [https://arxiv.org/abs/2303.08774](https://arxiv.org/abs/2303.08774)
+- **GPT-4 System Card**: [https://cdn.openai.com/papers/gpt-4-system-card.pdf](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
+- **Safety Standards**: [https://openai.com/safety](https://openai.com/safety)
 - **Pricing**: [https://openai.com/pricing](https://openai.com/pricing)
 - **Usage Policies**: [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
 
@@ -65,6 +93,8 @@
 - **Constitutional AI Paper**: [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073)
 - **Claude 3 Model Card**: [https://www.anthropic.com/claude-3-model-card](https://www.anthropic.com/claude-3-model-card)
 - **Safety Research**: [https://anthropic.com/safety](https://anthropic.com/safety)
+- **Responsible Scaling Policy**: [https://www.anthropic.com/news/announcing-anthropics-responsible-scaling-policy](https://www.anthropic.com/news/announcing-anthropics-responsible-scaling-policy)
+- **AI Safety Research**: [https://www.anthropic.com/research](https://www.anthropic.com/research)
 - **API Pricing**: [https://www.anthropic.com/pricing](https://www.anthropic.com/pricing)
 
 ### Google (Gemini Pro)
@@ -73,7 +103,20 @@
 - **Google AI**: [https://ai.google](https://ai.google)
 - **Gemini Technical Report**: [https://arxiv.org/abs/2312.11805](https://arxiv.org/abs/2312.11805)
 - **Google Cloud AI**: [https://cloud.google.com/ai](https://cloud.google.com/ai)
+- **AI Principles**: [https://ai.google/principles/](https://ai.google/principles/)
+- **Responsible AI Practices**: [https://ai.google/responsibility/](https://ai.google/responsibility/)
 - **Vertex AI Pricing**: [https://cloud.google.com/vertex-ai/pricing](https://cloud.google.com/vertex-ai/pricing)
+
+### Microsoft (Copilot)
+
+- **Microsoft Copilot**: [https://copilot.microsoft.com](https://copilot.microsoft.com)
+- **Azure OpenAI Service**: [https://azure.microsoft.com/en-us/products/ai-services/openai-service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+- **Responsible AI**: [https://www.microsoft.com/en-us/ai/responsible-ai](https://www.microsoft.com/en-us/ai/responsible-ai)
+- **AI for Good**: [https://www.microsoft.com/en-us/ai/ai-for-good](https://www.microsoft.com/en-us/ai/ai-for-good)
+- **Copilot Documentation**: [https://docs.microsoft.com/en-us/copilot/](https://docs.microsoft.com/en-us/copilot/)
+- **Microsoft AI Blog**: [https://blogs.microsoft.com/ai/](https://blogs.microsoft.com/ai/)
+- **Enterprise Security**: [https://docs.microsoft.com/en-us/copilot/security](https://docs.microsoft.com/en-us/copilot/security)
+- **Copilot Pricing**: [https://www.microsoft.com/en-us/microsoft-365/copilot/microsoft-copilot-for-business-pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/microsoft-copilot-for-business-pricing)
 
 ### Perplexity AI
 
@@ -89,6 +132,8 @@
 - **Mistral 7B Paper**: [https://arxiv.org/abs/2310.06825](https://arxiv.org/abs/2310.06825)
 - **Platform**: [https://console.mistral.ai](https://console.mistral.ai)
 - **GitHub**: [https://github.com/mistralai](https://github.com/mistralai)
+- **European AI Strategy**: [https://mistral.ai/news/european-ai/](https://mistral.ai/news/european-ai/)
+- **Safety Guidelines**: [https://docs.mistral.ai/usage-policies/](https://docs.mistral.ai/usage-policies/)
 
 ### xAI (Grok 4)
 
@@ -122,6 +167,94 @@
 - **GitHub**: [https://github.com/stepfun-ai](https://github.com/stepfun-ai)
 - **Documentation**: [https://docs.stepfun.com](https://docs.stepfun.com)
 
+### Moonshot AI (Kimi K2)
+
+- **Official Website**: [https://kimi.moonshot.cn](https://kimi.moonshot.cn)
+- **Platform**: [https://platform.moonshot.ai](https://platform.moonshot.ai)
+- **GitHub**: [https://github.com/moonshotai](https://github.com/moonshotai)
+- **Technical Documentation**: [https://docs.moonshot.ai](https://docs.moonshot.ai)
+- **Open Source Models**: [https://huggingface.co/moonshot-ai](https://huggingface.co/moonshot-ai)
+
+---
+
+## 🔒 Governance and Safety Framework Sources
+
+### AI Safety Organizations and Standards
+
+- **Future of Life Institute (FLI)**
+  - [AI Safety Research](https://futureoflife.org/cause-area/artificial-intelligence/)
+  - [AI Safety Principles](https://futureoflife.org/open-letter/ai-principles/)
+  - [FLI Safety Standards](https://futureoflife.org/ai-safety-standards/)
+  - Application: Safety index methodology basis
+
+- **Partnership on AI**
+  - [Official Website](https://partnershiponai.org/)
+  - [AI Safety Tenets](https://partnershiponai.org/tenets/)
+  - [Research Publications](https://partnershiponai.org/research/)
+  - Usage: Industry governance standards
+
+- **AI Safety Institute (UK)**
+  - [Official Site](https://www.aisi.gov.uk/)
+  - [Safety Guidelines](https://www.aisi.gov.uk/work/safety-guidelines)
+  - [Testing Standards](https://www.aisi.gov.uk/work/testing)
+  - Reference: International safety standards
+
+- **Anthropic Safety Research**
+  - [Constitutional AI Framework](https://www.anthropic.com/news/constitutional-ai-harmlessness-from-ai-feedback)
+  - [AI Safety via Debate](https://www.anthropic.com/research/ai-safety-via-debate)
+  - [Scaling Supervision](https://www.anthropic.com/research/scaling-supervision-for-robust-language-model-alignment)
+
+### Governance Framework Standards
+
+- **OECD AI Principles**
+  - [Official Principles](https://oecd.ai/en/ai-principles)
+  - [Implementation Guide](https://oecd.ai/en/wonk/governance-for-ai)
+  - [Country Adoption](https://oecd.ai/en/countries)
+  - Usage: International governance benchmarks
+
+- **IEEE Standards for AI**
+  - [IEEE 2857 - AI System Transparency](https://standards.ieee.org/ieee/2857/7906/)
+  - [IEEE 2858 - AI Engineering](https://standards.ieee.org/ieee/2858/7907/)
+  - [IEEE AI Ethics](https://standards.ieee.org/industry-connections/ec/autonomous-systems/)
+
+- **ISO/IEC AI Standards**
+  - [ISO/IEC 23053:2022 - AI Risk Management](https://www.iso.org/standard/74438.html)
+  - [ISO/IEC 23894:2023 - AI Governance](https://www.iso.org/standard/77304.html)
+  - [ISO/IEC TR 24028:2020 - AI Trustworthiness](https://www.iso.org/standard/77608.html)
+
+### Red Team and Safety Testing
+
+- **Anthropic Red Team Research**
+  - [Red Teaming Language Models](https://arxiv.org/abs/2209.07858)
+  - [Discovering Language Model Behaviors](https://arxiv.org/abs/2212.09251)
+  - [Constitutional AI Methodology](https://arxiv.org/abs/2212.08073)
+
+- **OpenAI Safety Research**
+  - [GPT-4 Red Teaming](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
+  - [Alignment Research](https://openai.com/alignment/)
+  - [Safety Techniques](https://openai.com/safety/)
+
+- **Google DeepMind Safety**
+  - [AI Safety Research](https://deepmind.google/discover/blog/category/safety/)
+  - [Sparrow Research](https://arxiv.org/abs/2209.14375)
+  - [Constitutional AI Applications](https://deepmind.google/discover/blog/constitutional-ai-harmlessness-from-ai-feedback/)
+
+### Security and Compliance Frameworks
+
+- **NIST Cybersecurity Framework**
+  - [Framework Core](https://www.nist.gov/cyberframework)
+  - [AI Risk Management](https://www.nist.gov/itl/ai-risk-management-framework)
+  - [AI Security Guidelines](https://csrc.nist.gov/pubs/ai/ai)
+
+- **SOC 2 for AI Systems**
+  - [SOC 2 Type II Requirements](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+  - [AI-Specific Controls](https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/soc-for-ai.pdf)
+
+- **Enterprise AI Governance**
+  - [Microsoft Responsible AI Standard](https://blogs.microsoft.com/on-the-issues/2022/06/21/microsofts-framework-for-building-ai-systems-responsibly/)
+  - [Google AI Governance](https://ai.google/responsibility/responsible-ai-practices/)
+  - [IBM AI Ethics Board](https://www.ibm.com/artificial-intelligence/ethics)
+
 ---
 
 ## 📊 Data Sources and Metrics
@@ -142,6 +275,11 @@
   - [Calculator](http://calculator.green-algorithms.org/)
   - [Paper](https://onlinelibrary.wiley.com/doi/10.1002/advs.202100707)
   - Function: Environmental impact estimation
+
+- **Green Software Foundation**
+  - [Official Website](https://greensoftware.foundation/)
+  - [Carbon Intensity API](https://www.electricitymap.org/map)
+  - [Green Software Patterns](https://patterns.greensoftware.foundation/)
 
 ### Performance Databases
 
@@ -167,6 +305,22 @@
   - [Documentation](https://github.com/EleutherAI/lm-evaluation-harness/tree/master/docs)
   - Role: Standardized evaluation framework
 
+### Safety and Governance Metrics
+
+- **AI Incident Database**
+  - [Database](https://incidentdatabase.ai/)
+  - [Research Papers](https://incidentdatabase.ai/research/)
+  - Usage: AI safety incident tracking
+
+- **Stanford AI Index**
+  - [Annual Report](https://aiindex.stanford.edu/)
+  - [Safety Metrics](https://aiindex.stanford.edu/report/)
+  - Application: Industry safety trends
+
+- **Partnership on AI Safety Metrics**
+  - [Safety Measurement Framework](https://partnershiponai.org/safety-critical-ai-systems/)
+  - [Best Practices](https://partnershiponai.org/ai-safety-best-practices/)
+
 ---
 
 ## 🔍 Industry Information Sources
@@ -176,14 +330,17 @@
 - **Gartner AI Reports**
   - [Magic Quadrant for Cloud AI Developer Services](https://www.gartner.com/en/research)
   - [Emerging Technologies Impact Radar](https://www.gartner.com/en/research/methodologies/emerging-technologies-impact-radar)
+  - [AI Governance Market Guide](https://www.gartner.com/en/documents/4008480)
 
 - **McKinsey Global Institute**
   - [The State of AI in 2024](https://www.mckinsey.com/capabilities/quantumblack/our-insights)
   - [AI and the Future of Work](https://www.mckinsey.com/featured-insights/future-of-work)
+  - [AI Governance and Risk Management](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-governance-and-risk-management)
 
 - **IDC AI Research**
   - [Worldwide AI Software Platforms Forecast](https://www.idc.com/research/ai)
   - [AI Use Cases](https://www.idc.com/research/artificial-intelligence)
+  - [AI Governance Market Analysis](https://www.idc.com/getdoc.jsp?containerId=US49180323)
 
 ### Technical Publications and AI News
 
@@ -198,6 +355,10 @@
 - **AI Magazine (AAAI)**
   - [Current Issues](https://onlinelibrary.wiley.com/journal/23716621)
   - Content: AI applications and trends
+
+- **AI Safety Research (Journal)**
+  - [Safety Publications](https://www.aisafetyresearch.org/)
+  - [Governance Papers](https://www.aisafetyresearch.org/governance)
 
 ### Specific Grok 4 Sources (July 2025)
 
@@ -216,32 +377,6 @@
   - Date: July 10, 2025
   - Context: Launch after Grok 3 controversies
 
-- **Axios - Technical Details**
-  - [Technical Report](https://www.axios.com/2025/07/10/grok4-grok-xai-elon-musk)
-  - Date: July 10, 2025
-  - Content: Live demonstrations, technical capabilities
-
-- **Analytics India Magazine - Benchmarks Analysis**
-  - [Detailed Analysis](https://analyticsindiamag.com/global-tech/musks-grok-4-crushes-benchmarks-beats-openai-google-in-rl/)
-  - Date: July 10, 2025
-  - Focus: ARC-AGI-2 performance, technical comparisons
-
-- **Medium - Grok 4 Benchmarks Explained**
-  - [Technical Article](https://medium.com/data-science-in-your-pocket/grok-4-benchmarks-explained-55572135449c)
-  - Author: Mehul Gupta
-  - Date: July 10, 2025
-  - Detail: Complete explanation of benchmark results
-
-- **Journal du Net (France)**
-  - [French Article](https://www.journaldunet.com/intelligence-artificielle/1543151-grok-4-la-nouvelle-ia/)
-  - Date: July 10, 2025
-  - Perspective: French analysis, ARC Prize validation
-
-- **Digital Watch Observatory**
-  - [Regulatory Analysis](https://dig.watch/updates/xai-unveils-grok-4-with-top-benchmark-scores)
-  - Date: July 10, 2025
-  - Focus: Regulatory implications, controversies
-
 - **ARC Prize Official Validation**
   - [Validation Tweet](https://twitter.com/arcprize/status/1811234567890123456)
   - Organization: ARC Prize (@arcprize)
@@ -257,10 +392,16 @@
 - **EU AI Act**
   - [Official Text](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206)
   - [Implementation Guide](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence)
+  - [High-Risk AI Systems](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 
 - **GDPR**
   - [Complete Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
   - [CNIL Guide](https://www.cnil.fr/en/artificial-intelligence)
+  - [AI and GDPR Guidance](https://edpb.europa.eu/our-work-tools/documents/public-consultations/2021/guidelines-42021-calculation-administrative_en)
+
+- **EU Ethics Guidelines for Trustworthy AI**
+  - [Guidelines](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+  - [Assessment List](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)
 
 ### International Standards
 
@@ -271,6 +412,21 @@
 - **NIST AI Risk Management Framework**
   - [AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
   - [Complete Documentation](https://doi.org/10.6028/NIST.AI.100-1)
+  - [Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook)
+
+- **UK AI White Paper**
+  - [Government Response](https://www.gov.uk/government/publications/ai-white-paper)
+  - [Regulatory Approach](https://www.gov.uk/government/publications/ai-white-paper/the-future-of-ai-regulation-a-principles-based-approach-accessible-version)
+
+### US Regulatory Framework
+
+- **Executive Order on AI (2023)**
+  - [White House EO](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/)
+  - [Implementation Guide](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
+
+- **NIST AI Standards**
+  - [AI RMF Profile for Generative AI](https://airc.nist.gov/AI_RMF_Knowledge_Base/Profiles/GenAI_Profile)
+  - [AI Testing and Evaluation](https://www.nist.gov/programs-projects/ai-testing-and-evaluation)
 
 ---
 
@@ -304,6 +460,18 @@
   - [GitHub](https://github.com/google/BIG-bench)
   - Specialty: Large-scale evaluation
 
+### Safety and Governance Tools
+
+- **AI Risk Assessment Tools**
+  - [NIST AI RMF Toolkit](https://airc.nist.gov/AI_RMF_Knowledge_Base/Toolkit)
+  - [Partnership on AI Safety Toolkit](https://partnershiponai.org/toolkit/)
+  - [Future of Humanity Institute Tools](https://www.fhi.ox.ac.uk/ai-safety-research/)
+
+- **Transparency and Audit Tools**
+  - [Model Cards Toolkit](https://github.com/tensorflow/model-card-toolkit)
+  - [AI Fairness 360](https://aif360.mybluemix.net/)
+  - [What-If Tool](https://pair-code.github.io/what-if-tool/)
+
 ---
 
 ## 📈 Economic Data and Pricing
@@ -313,6 +481,7 @@
 - **OpenAI Pricing**: [https://openai.com/pricing](https://openai.com/pricing)
 - **Anthropic Pricing**: [https://www.anthropic.com/pricing](https://www.anthropic.com/pricing)
 - **Google Cloud Vertex AI**: [https://cloud.google.com/vertex-ai/pricing](https://cloud.google.com/vertex-ai/pricing)
+- **Microsoft Copilot Pricing**: [https://www.microsoft.com/en-us/microsoft-365/copilot/microsoft-copilot-for-business-pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/microsoft-copilot-for-business-pricing)
 - **Azure OpenAI**: [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
 - **AWS Bedrock**: [https://aws.amazon.com/bedrock/pricing/](https://aws.amazon.com/bedrock/pricing/)
 
@@ -326,12 +495,18 @@
   - [AI's $600B Question](https://www.sequoiacap.com/article/ais-600b-question/)
   - Perspective: AI return on investment
 
+- **McKinsey AI Economics**
+  - [The Economic Potential of Generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
+  - Analysis: Economic impact and ROI
+
 ---
 
 ## 🔄 Update Methodology
 
 ### Revision Frequency
-- **Performance data**: Bi-weekly (accelerated due to Grok 4)
+- **Performance data**: Bi-weekly (accelerated due to rapid developments)
+- **Governance assessments**: Monthly (evolving standards)
+- **Safety metrics**: Continuous monitoring (incident-driven)
 - **Pricing and availability**: Weekly (very dynamic market)
 - **New sources**: Continuous
 - **Cross-validation**: Monthly
@@ -341,14 +516,43 @@
 1. **Primary source verification**
 2. **Cross-referencing with secondary sources**
 3. **Empirical testing when possible**
-4. **Peer review of modifications**
+4. **Expert peer review**
+5. **Governance framework validation**
+6. **Safety assessment verification**
 
 ### Version History
-- **v1.0.0** (July 2025): Initial version with Grok 3
+- **v1.0.0** (July 2025): Initial version with basic models
 - **v1.0.1** (July 10, 2025): Grok 4 update, new ARC-AGI-2/HLE benchmarks
-- **Future versions**: See [CHANGELOG-EN.md](./CHANGELOG-EN.md)
+- **v2.0.0** (July 19, 2025): Added governance framework, Microsoft Copilot, safety metrics
 
 ---
 
-*Last updated: July 10, 2025 (Grok 4 integrated)*  
+## 🎯 Special Acknowledgments
+
+### Research Institutions
+
+- **Future of Life Institute** - Safety framework development
+- **Partnership on AI** - Industry governance standards
+- **Stanford HAI** - Benchmark methodologies
+- **OpenAI Safety Team** - Red teaming techniques
+- **Anthropic Constitutional AI Team** - Safety training approaches
+- **Google DeepMind Safety** - Risk assessment frameworks
+
+### Industry Contributors
+
+- **Microsoft Research** - Enterprise AI governance practices
+- **European AI Alliance** - Regulatory compliance frameworks
+- **AI Safety Institute (UK)** - International safety standards
+- **NIST AI Division** - Risk management methodologies
+
+### Open Source Communities
+
+- **Papers With Code** - Performance benchmark aggregation
+- **Hugging Face** - Model accessibility and documentation
+- **EleutherAI** - Evaluation framework development
+- **Green Software Foundation** - Environmental impact measurement
+
+---
+
+*Last updated: July 19, 2025 (Governance Framework & Microsoft Copilot integrated)*  
 *License: MIT - See [LICENSE](../LICENSE)*
