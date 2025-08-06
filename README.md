@@ -146,7 +146,7 @@ This interactive comparison table provides a comprehensive analysis of **11 lead
 ## 🚀 Quick Start
 
 ### 🌐 **View Online**
-👉 **[Live Demo]([https://your-username.github.io/ai-chatbot-comparison-2025/](https://otakuch.github.io/ai-chatbots-comparison-eng/))**
+👉 **[Live Demo](https://your-username.github.io/ai-chatbot-comparison-2025/)**
 
 ---
 
@@ -208,6 +208,40 @@ This interactive comparison table provides a comprehensive analysis of **11 lead
 - **Compliance Leaders**: European and US models lead in regulatory compliance
 
 ---
+
+## 🤝 Contributing
+
+We welcome contributions to improve the accuracy and completeness of this analysis!
+
+### 🎯 **How to Contribute**
+
+1. **Fork the repository**
+   ```bash
+   git fork https://github.com/your-username/ai-chatbot-comparison-2025.git
+   ```
+
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/governance-update
+   ```
+
+3. **Make your changes**
+   - Update model data in `data/models.json`
+   - Add new sources to `docs/REFERENCES.md`
+   - Update the main table in `index.html`
+   - Update governance assessments in `data/governance.json`
+
+4. **Commit with clear messages**
+   ```bash
+   git commit -m "Update: Add GPT-5 governance framework data"
+   ```
+
+5. **Submit a Pull Request**
+   - Provide detailed description of changes
+   - Include source verification for new data
+   - Reference issue numbers if applicable
+
+### 📋 **Contribution Guidelines**
 
 #### ✅ **We Need Help With:**
 - 📊 **Data Updates**: New model releases and specification changes
@@ -294,6 +328,15 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **Data Verification**: Continuous monitoring of source changes
 
 ---
+
+## 📊 Project Stats
+
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/ai-chatbot-comparison-2025?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/ai-chatbot-comparison-2025?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/your-username/ai-chatbot-comparison-2025?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/ai-chatbot-comparison-2025?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/your-username/ai-chatbot-comparison-2025?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/your-username/ai-chatbot-comparison-2025?style=flat-square)
 
 ### 📈 **Impact Metrics**
 - **🌟 GitHub Stars**: Building community recognition
